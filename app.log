@@ -1,0 +1,5 @@
+2026-05-27 14:13:09,893 - my_logger - DEBUG - This is a debug message.
+2026-05-27 14:13:09,893 - my_logger - INFO - This is an info message.
+2026-05-27 14:13:09,893 - my_logger - WARNING - This is a warning message.
+2026-05-27 14:13:09,893 - my_logger - ERROR - This is an error message.
+2026-05-27 14:13:09,893 - my_logger - CRITICAL - This is a critical message.

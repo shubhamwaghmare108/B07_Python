@@ -1,0 +1,207 @@
+START
+  │
+  ├── 1. Are you using "=" (assignment)?
+  │        │
+  │        ├── YES → NEW OBJECT (re-binding)
+  │        └── NO ↓
+  │
+  ├── 2. Is the object IMMUTABLE? (int, str, tuple)
+  │        │
+  │        ├── YES → ALWAYS NEW OBJECT
+  │        └── NO ↓ (mutable: list, dict, set)
+  │
+  ├── 3. Are you using an IN-PLACE METHOD?
+  │        │
+  │        ├── YES → MUTATION
+  │        │       (append, extend, update, add, remove, etc.)
+  │        └── NO ↓
+  │
+  ├── 4. Are you using an IN-PLACE OPERATOR?
+  │        │
+  │        ├── YES → MUTATION
+  │        │       (+=, *= for mutable types)
+  │        └── NO ↓
+  │
+  ├── 5. Are you using "+" or similar operators?
+  │        │
+  │        ├── YES → NEW OBJECT
+  │        │       (a = a + [...], string concat, etc.)
+  │        └── NO ↓
+  │
+  ├── 6. Are you REASSIGNING inside a function?
+  │        │
+  │        ├── YES → NEW OBJECT (local only)
+  │        └── NO ↓
+  │
+  └── 7. Are you MODIFYING elements directly?
+           │
+           ├── YES → MUTATION
+           │       (lst[0] = x, dict[key] = value)
+           └── NO → CHECK WITH id()
+
+
+| Concept   | Meaning                      |
+| --------- | ---------------------------- |
+| Binding   | name → object                |
+| Rebinding | name → new object            |
+| Mutation  | same object → content change |
+
+
+Variables are just labels, not boxes.
+
+Binding = sticking label on object
+Rebinding = moving label to new object
+Mutation = changing object itself
+
+
+What is Mutability?
+
+👉 Mutability = ability of an object to change after it is created
+
+If object can change → ✅ Mutable
+If object cannot change → ❌ Immutable
+
+“Mutability means whether the internal state (value/content) 
+of an object can be modified without creating a new object.”
+
+“Mutability refers to whether an object’s state can be modified after creation. 
+Mutable objects like lists can be changed in-place, 
+while immutable objects like integers and strings cannot, and any modification creates a new object.”
+
+What is Hashing?
+
+👉 Hashing = converting data into a fixed-size value (hash code) using a hash function
+
+Think: input → hash function → fixed-size output
+print(hash("hello"))
+Imagine:
+
+You have a huge book
+You convert it into a short unique code
+
+👉 That code is the hash
+
+Key Properties of Hashing
+1. Fixed Size Output
+No matter input size → output size is fixed
+
+2. Deterministic
+Same input → same hash
+
+3. Fast Lookup
+Used for quick searching
+
+4. Collision Possible
+Different inputs can have same hash (rare but possible)
+
+Only immutable objects can be hashed
+Hash must remain constant → mutable objects can change
+“Hashing is the process of converting data into a fixed-size hash value using a hash function. 
+In Python, it is used in dictionaries and sets for fast lookups. 
+Only immutable objects are hashable because their values don’t change, ensuring consistent hash values.”
+
+“Python’s built-in hash() function returns an integer, but cryptographic hashing functions like MD5 or SHA return hexadecimal strings. 
+Internally, all hashes are numeric values, 
+but they are often represented as strings for readability and consistency.”
+
+What is a Sequence?
+
+👉 A sequence = an ordered collection of elements
+
+“Ordered” means every item has a position (index)
+“A sequence is an ordered collection of elements that supports indexing, slicing, and iteration.”
+“In Python, a sequence is an ordered collection of items such as lists, tuples, and strings. 
+Elements can be accessed using indexing and slicing, and sequences support iteration and length operations.”
+
+Ordered
+
+Elements have a fixed position (index) and order is preserved
+
+Unordered
+
+Elements don’t have a reliable position, and order is not guaranteed / not meaningful
+What is an Iterable?
+
+👉 Iterable = any object you can loop over
+
+If you can use it in a for loop → it’s an iterable
+An iterable is an object that can return its elements one at a time (via an iterator).
+
+| Concept  | Meaning                      |
+| -------- | ---------------------------- |
+| Iterable | Object you can loop over     |
+| Iterator | Object that gives next value |
+
+“An iterable is any object that can be looped over, returning elements one by one.”
+“An iterable in Python is an object capable of returning its elements one at a time, typically used in loops. 
+It implements the __iter__() method and can be used with functions like iter() and next().”
+
+What is a Generator?
+
+👉 A generator is a special kind of iterable that:
+
+Produces values one at a time
+Uses the yield keyword
+Does not store all values in memory
+
+Think: “generate values on demand instead of storing everything”
+Generator creates values only when needed
+
+How yield Works
+
+👉 yield:
+
+Pauses function
+Saves state
+Resumes from same point
+
+“A generator is a memory-efficient iterable that produces values one at a time using yield.”
+“A generator in Python is a special type of iterator created using a function with the yield keyword. 
+It generates values lazily, one at a time, instead of storing them in memory, 
+making it efficient for large data processing.”
+
+
+“A closure is a function that retains access to variables from its enclosing scope 
+even after that scope has finished executing.”
+
+“A closure in Python is a function object that remembers values from its enclosing scope 
+even if that scope is no longer active. 
+It is created when a nested function captures variables from its outer function.”
+
+Sequence
+Ordered
+Supports indexing & slicing
+
+Iterable
+Can be looped over
+
+Iterator
+Uses __iter__() and __next__()
+
+Generator
+Uses yield
+Lazy evaluation
+
+“GIL ensures that only one thread executes Python bytecode at a time, 
+simplifying memory management but limiting true parallelism in CPU-bound tasks.”
+
+“The Global Interpreter Lock (GIL) in CPython is a mutex that ensures only one thread executes Python bytecode at a time.
+ It simplifies memory management but limits multithreading performance for CPU-bound tasks,
+ though it does not significantly impact I/O-bound operations.”
+“Multithreading allows multiple tasks to run concurrently within a single process, sharing memory, 
+and is best suited for I/O-bound operations in Python due to the GIL.”
+
+“Multithreading in Python allows concurrent execution of multiple threads within the same process. 
+Due to the GIL, it does not provide true parallelism for CPU-bound tasks
+ but is effective for I/O-bound operations where threads can run while waiting for external resources.”
+
+“Multiprocessing enables true parallel execution by running multiple processes with separate memory spaces,
+ making it ideal for CPU-bound tasks and overcoming Python’s GIL limitation.”
+
+“Multiprocessing in Python involves creating multiple processes that run independently with separate memory spaces, 
+allowing true parallel execution. It bypasses the GIL and is ideal for CPU-bound tasks, 
+though it comes with higher overhead compared to multithreading.”
+
+Threading → I/O tasks
+Multiprocessing → CPU tasks
+
