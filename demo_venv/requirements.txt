@@ -1,3 +1,6 @@
-numpy
-pandas == 2.2.2
-matplotlib
+numpy==2.2.6
+pandas==2.3.3
+python-dateutil==2.9.0.post0
+pytz==2026.2
+six==1.17.0
+tzdata==2026.2
