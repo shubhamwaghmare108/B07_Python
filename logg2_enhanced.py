@@ -97,6 +97,37 @@ def setup_production():
     return log
 
 # ============================================================================
+# FILE LOGGING SETUP
+# ============================================================================
+def setup_file_logging(log_file="app.log", level=logging.INFO, use_json=True):
+    """Configure structlog to write structured logs to a file."""
+
+    file_handler = logging.FileHandler(log_file, encoding="utf-8")
+    file_handler.setFormatter(logging.Formatter("%(message)s"))
+
+    logging.basicConfig(
+        level=level,
+        handlers=[file_handler],
+        format="%(message)s",
+    )
+
+    structlog.configure(
+        processors=[
+            structlog.processors.TimeStamper(fmt="iso"),
+            structlog.processors.add_log_level,
+            structlog.processors.JSONRenderer() if use_json else structlog.processors.KeyValueRenderer(),
+        ],
+        context_class=dict,
+        logger_factory=structlog.stdlib.LoggerFactory(),
+        wrapper_class=structlog.stdlib.BoundLogger,
+        cache_logger_on_first_use=True,
+    )
+
+    log = structlog.get_logger()
+    log.info("file_logging_configured", log_file=log_file, output_format="json" if use_json else "key_value")
+    return log
+
+# ============================================================================
 # KEY FEATURE: Context Binding
 # ============================================================================
 def demo_context_binding():
@@ -265,6 +296,23 @@ def demo_custom_processors():
     # Output: {..., 'username': 'alice', 'password': '***REDACTED***'}
 
 # ============================================================================
+# FILE LOGGING DEMO
+# ============================================================================
+def demo_file_logging():
+    """Demonstrate writing structured logs to a file."""
+    log = setup_file_logging(log_file="app.log", level=logging.INFO, use_json=True)
+
+    print("\n" + "="*60)
+    print("FILE LOGGING DEMO")
+    print("="*60 + "\n")
+
+    log.info("file_log_test", status="ok", demo_stage="started")
+    log.warning("file_log_warning", warning_type="demo_warning", detail="check output file")
+    log.error("file_log_error", error_code=123, error_type="demo_error")
+    
+    print("Structured logs written to app.log")
+
+# ============================================================================
 # ADVANCED: Async Logging for Performance
 # ============================================================================
 def demo_async_logging():
@@ -355,6 +403,7 @@ if __name__ == "__main__":
     demo_exception_handling()
     demo_web_integration()
     demo_custom_processors()
+    demo_file_logging()
     demo_best_practices()
     
     print("\n" + "="*60)

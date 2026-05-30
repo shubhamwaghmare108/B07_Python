@@ -1,5 +1,5 @@
-2026-05-27 14:13:09,893 - my_logger - DEBUG - This is a debug message.
-2026-05-27 14:13:09,893 - my_logger - INFO - This is an info message.
-2026-05-27 14:13:09,893 - my_logger - WARNING - This is a warning message.
-2026-05-27 14:13:09,893 - my_logger - ERROR - This is an error message.
-2026-05-27 14:13:09,893 - my_logger - CRITICAL - This is a critical message.
+
+{"log_file": "app.log", "output_format": "json", "event": "file_logging_configured", "timestamp": "2026-05-30T09:44:54.441151Z", "level": "info"}
+{"status": "ok", "demo_stage": "started", "event": "file_log_test", "timestamp": "2026-05-30T09:44:54.445151Z", "level": "info"}
+{"warning_type": "demo_warning", "detail": "check output file", "event": "file_log_warning", "timestamp": "2026-05-30T09:44:54.446145Z", "level": "warning"}
+{"error_code": 123, "error_type": "demo_error", "event": "file_log_error", "timestamp": "2026-05-30T09:44:54.453145Z", "level": "error"}

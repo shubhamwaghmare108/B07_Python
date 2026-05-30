@@ -20,7 +20,7 @@ logger = logging.getLogger("my_logger")
 # Configure logging with basicConfig (one-time setup)
 # Note: basicConfig only works once; subsequent calls are ignored
 logging.basicConfig(
-    level=logging.DEBUG,                    # Minimum level to log
+    level=logging.ERROR,                    # Minimum level to log
     filename='app1.log',                    # File to write to
     filemode='a',                           # 'a' = append, 'w' = overwrite
     format='%(asctime)s - %(name)s - %(levelname)s - %(filename)s '
@@ -62,6 +62,7 @@ if __name__ == "__main__":
         # Option 2: logger.exception() - includes full traceback automatically
         # This is the preferred way to log exceptions
         logger.exception(f"Error occurred: {e}")
+        logger.error(f"Error occurred: {e}", exc_info=True)  # Also log as error level without traceback
     
     # Test 3: Informational logs
     logger.info("Division completed successfully.")

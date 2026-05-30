@@ -6,6 +6,8 @@ This demonstrates advanced logging with multiple handlers:
 - FileHandler: Captures all logs (DEBUG+)
 - StreamHandler: Console output (INFO+)
 - SMTPHandler: Email alerts (ERROR+)
+- RotatingFileHandler: Log file rotation for production use
+- time based rotation (TimedRotatingFileHandler) can also be used for daily logs
 
 Key Concepts:
 - Logger vs Handlers vs Formatters
@@ -61,10 +63,10 @@ stream_handler.setFormatter(formatter)
 #
 email_handler = SMTPHandler(
     mailhost=('smtp.gmail.com', 587),          # Gmail SMTP server
-    fromaddr='your_email@gmail.com',            # Sender address
-    toaddrs=['ops@company.com'],                # Recipients list
+    fromaddr='scwagh123@gmail.com',            # Sender address
+    toaddrs=['ajbalesarthak3@gmail.com'],                # Recipients list
     subject='[ALERT] Application Error',        # Email subject
-    credentials=('your_email@gmail.com', 'app_specific_password'),  # Login
+    credentials=('scwagh123@gmail.com', 'app password'),  # Login
     secure=()                                   # Use TLS (tuple triggers STARTTLS)
 )
 email_handler.setLevel(logging.ERROR)           # Only ERROR and CRITICAL

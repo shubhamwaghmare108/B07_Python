@@ -44,3 +44,10 @@
 2026-05-27 15:43:57,088 - my_logger - WARNING - function <module>:LineNo.45 - This is a warning message.
 2026-05-27 15:43:57,088 - my_logger - ERROR - function <module>:LineNo.46 - This is an error message.
 2026-05-27 15:44:00,399 - my_logger - CRITICAL - function <module>:LineNo.47 - This is a critical message.
+2026-05-30 14:53:39 - my_logger - DEBUG - function main:LineNo.94 - This is a debug message.
+2026-05-30 14:53:39 - my_logger - INFO - function main:LineNo.98 - This is an info message.
+2026-05-30 14:53:39 - my_logger - WARNING - function main:LineNo.102 - This is a warning message.
+2026-05-30 14:53:39 - my_logger - ERROR - function main:LineNo.106 - This is an error message.
+2026-05-30 14:53:43 - my_logger - CRITICAL - function main:LineNo.110 - This is a critical message.
+2026-05-30 14:53:46 - my_logger - INFO - function process_request:LineNo.207 - Processing request
+2026-05-30 14:53:46 - my_logger - WARNING - function process_request:LineNo.219 - Destructive action requested
