@@ -20,7 +20,7 @@ logger = logging.getLogger("my_logger")
 # Configure logging with basicConfig (one-time setup)
 # Note: basicConfig only works once; subsequent calls are ignored
 logging.basicConfig(
-    level=logging.ERROR,                    # Minimum level to log
+    level=logging.INFO,                    # Minimum level to log
     filename='app1.log',                    # File to write to
     filemode='a',                           # 'a' = append, 'w' = overwrite
     format='%(asctime)s - %(name)s - %(levelname)s - %(filename)s '

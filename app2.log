@@ -51,3 +51,31 @@
 2026-05-30 14:53:43 - my_logger - CRITICAL - function main:LineNo.110 - This is a critical message.
 2026-05-30 14:53:46 - my_logger - INFO - function process_request:LineNo.207 - Processing request
 2026-05-30 14:53:46 - my_logger - WARNING - function process_request:LineNo.219 - Destructive action requested
+2026-06-30 18:15:11 - my_logger - DEBUG - function main:LineNo.95 - This is a debug message.
+2026-06-30 18:15:11 - my_logger - INFO - function main:LineNo.99 - This is an info message.
+2026-06-30 18:15:11 - my_logger - WARNING - function main:LineNo.103 - This is a warning message.
+2026-06-30 18:15:11 - my_logger - ERROR - function main:LineNo.107 - This is an error message.
+2026-06-30 18:15:17 - my_logger - CRITICAL - function main:LineNo.111 - This is a critical message.
+2026-06-30 18:15:23 - my_logger - INFO - function process_request:LineNo.208 - Processing request
+2026-06-30 18:15:23 - my_logger - WARNING - function process_request:LineNo.220 - Destructive action requested
+2026-06-30 18:15:40 - my_logger - DEBUG - function main:LineNo.95 - This is a debug message.
+2026-06-30 18:15:40 - my_logger - INFO - function main:LineNo.99 - This is an info message.
+2026-06-30 18:15:40 - my_logger - WARNING - function main:LineNo.103 - This is a warning message.
+2026-06-30 18:15:40 - my_logger - ERROR - function main:LineNo.107 - This is an error message.
+2026-06-30 18:15:45 - my_logger - CRITICAL - function main:LineNo.111 - This is a critical message.
+2026-06-30 18:15:51 - my_logger - INFO - function process_request:LineNo.208 - Processing request
+2026-06-30 18:15:51 - my_logger - WARNING - function process_request:LineNo.220 - Destructive action requested
+2026-06-30 18:16:50 - my_logger - DEBUG - function main:LineNo.95 - This is a debug message.
+2026-06-30 18:16:50 - my_logger - INFO - function main:LineNo.99 - This is an info message.
+2026-06-30 18:16:50 - my_logger - WARNING - function main:LineNo.103 - This is a warning message.
+2026-06-30 18:16:50 - my_logger - ERROR - function main:LineNo.107 - This is an error message.
+2026-06-30 18:16:55 - my_logger - CRITICAL - function main:LineNo.111 - This is a critical message.
+2026-06-30 18:17:00 - my_logger - INFO - function process_request:LineNo.208 - Processing request
+2026-06-30 18:17:00 - my_logger - WARNING - function process_request:LineNo.220 - Destructive action requested
+2026-06-30 18:21:02 - my_logger - DEBUG - function main:LineNo.95 - This is a debug message.
+2026-06-30 18:21:02 - my_logger - INFO - function main:LineNo.99 - This is an info message.
+2026-06-30 18:21:02 - my_logger - WARNING - function main:LineNo.103 - This is a warning message.
+2026-06-30 18:21:02 - my_logger - ERROR - function main:LineNo.107 - This is an error message.
+2026-06-30 18:21:05 - my_logger - CRITICAL - function main:LineNo.111 - This is a critical message.
+2026-06-30 18:21:09 - my_logger - INFO - function process_request:LineNo.208 - Processing request
+2026-06-30 18:21:09 - my_logger - WARNING - function process_request:LineNo.220 - Destructive action requested

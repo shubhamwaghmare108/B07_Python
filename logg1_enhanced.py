@@ -64,7 +64,7 @@ stream_handler.setFormatter(formatter)
 email_handler = SMTPHandler(
     mailhost=('smtp.gmail.com', 587),          # Gmail SMTP server
     fromaddr='scwagh123@gmail.com',            # Sender address
-    toaddrs=['ajbalesarthak3@gmail.com'],                # Recipients list
+    toaddrs=['tejasviniukey@gmail.com','sujalashtankar12@gmail.com'],                # Recipients list
     subject='[ALERT] Application Error',        # Email subject
     credentials=('scwagh123@gmail.com', 'app password'),  # Login
     secure=()                                   # Use TLS (tuple triggers STARTTLS)

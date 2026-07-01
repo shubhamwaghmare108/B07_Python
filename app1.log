@@ -1,0 +1,15 @@
+2026-06-30 17:24:06,456 - my_logger - DEBUG - logg.py module:(logg) - function division:LineNo.16 - Dividing 10 by 0
+2026-06-30 17:24:06,456 - my_logger - DEBUG - logg.py module:(logg) - function <module>:LineNo.26 - Error occurred while dividing: division by zero
+2026-06-30 17:24:06,459 - my_logger - ERROR - logg.py module:(logg) - function <module>:LineNo.27 - Error occurred: division by zero, Traceback info: <traceback object at 0x000001E16532DB00>, Traceback details: {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x000001E164FFBCE0>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': 'c:\\Users\\SHUBHAM\\Desktop\\B07_Python\\logg.py', '__cached__': None, 'logging': <module 'logging' from 'C:\\Users\\SHUBHAM\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py'>, 'logger': <Logger my_logger (DEBUG)>, 'division': <function division at 0x000001E164FEA340>, 'e': ZeroDivisionError('division by zero')}
+Traceback (most recent call last):
+  File "c:\Users\SHUBHAM\Desktop\B07_Python\logg.py", line 24, in <module>
+    division(10, 0)  # This will raise a ZeroDivisionError and log the error
+    ^^^^^^^^^^^^^^^
+  File "c:\Users\SHUBHAM\Desktop\B07_Python\logg.py", line 17, in division
+    c = a / b
+        ~~^~~
+ZeroDivisionError: division by zero
+2026-06-30 17:24:06,464 - my_logger - INFO - logg.py module:(logg) - function <module>:LineNo.29 - Division completed successfully.
+2026-06-30 17:24:06,464 - my_logger - WARNING - logg.py module:(logg) - function <module>:LineNo.30 - This is a warning message.
+2026-06-30 17:24:06,464 - my_logger - ERROR - logg.py module:(logg) - function <module>:LineNo.31 - This is an error message.
+2026-06-30 17:24:06,464 - my_logger - CRITICAL - logg.py module:(logg) - function <module>:LineNo.32 - This is a critical message.
