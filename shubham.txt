@@ -1,0 +1,4 @@
+Good morning
+i will take a glass of water
+thank you
+This is my first file handling program in python

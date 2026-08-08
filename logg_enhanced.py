@@ -20,8 +20,8 @@ logger = logging.getLogger("my_logger")
 # Configure logging with basicConfig (one-time setup)
 # Note: basicConfig only works once; subsequent calls are ignored
 logging.basicConfig(
-    level=logging.INFO,                    # Minimum level to log
-    filename='app1.log',                    # File to write to
+    level=logging.DEBUG,                    # Minimum level to log
+    filename='application.log',                    # File to write to
     filemode='a',                           # 'a' = append, 'w' = overwrite
     format='%(asctime)s - %(name)s - %(levelname)s - %(filename)s '
            'module:(%(module)s) - function %(funcName)s:LineNo.%(lineno)d - %(message)s',
@@ -77,7 +77,7 @@ if __name__ == "__main__":
     logger.critical("This is a critical message.")
 
 """
-Expected log output (app1.log):
+Expected log output (application.log):
 
 2024-12-15 10:30:45 - my_logger - DEBUG - logg.py module:(logg) - function division:LineNo.21 - Dividing 10 by 0
 2024-12-15 10:30:45 - my_logger - DEBUG - logg.py module:(logg) - function <module>:LineNo.45 - Error occurred while dividing: division by zero

@@ -1,0 +1,46 @@
+2026-08-04 09:35:41 - my_logger - ERROR - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.64 - Error occurred: division by zero
+Traceback (most recent call last):
+  File "C:\Users\SHUBHAM\Desktop\B07_Python\logg_enhanced.py", line 57, in <module>
+    division(10, 0)  # This will raise ZeroDivisionError
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\SHUBHAM\Desktop\B07_Python\logg_enhanced.py", line 46, in division
+    c = a / b
+        ~~^~~
+ZeroDivisionError: division by zero
+2026-08-04 09:35:41 - my_logger - ERROR - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.65 - Error occurred: division by zero
+Traceback (most recent call last):
+  File "C:\Users\SHUBHAM\Desktop\B07_Python\logg_enhanced.py", line 57, in <module>
+    division(10, 0)  # This will raise ZeroDivisionError
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\SHUBHAM\Desktop\B07_Python\logg_enhanced.py", line 46, in division
+    c = a / b
+        ~~^~~
+ZeroDivisionError: division by zero
+2026-08-04 09:35:41 - my_logger - INFO - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.68 - Division completed successfully.
+2026-08-04 09:35:41 - my_logger - WARNING - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.71 - This is a warning message.
+2026-08-04 09:35:41 - my_logger - ERROR - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.74 - This is an error message.
+2026-08-04 09:35:41 - my_logger - CRITICAL - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.77 - This is a critical message.
+2026-08-04 09:38:27 - my_logger - DEBUG - logg_enhanced.py module:(logg_enhanced) - function division:LineNo.45 - Dividing 10 by 0
+2026-08-04 09:38:27 - my_logger - DEBUG - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.60 - Error occurred while dividing: division by zero
+2026-08-04 09:38:27 - my_logger - ERROR - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.64 - Error occurred: division by zero
+Traceback (most recent call last):
+  File "c:\Users\SHUBHAM\Desktop\B07_Python\logg_enhanced.py", line 57, in <module>
+    division(10, 0)  # This will raise ZeroDivisionError
+    ^^^^^^^^^^^^^^^
+  File "c:\Users\SHUBHAM\Desktop\B07_Python\logg_enhanced.py", line 46, in division
+    c = a / b
+        ~~^~~
+ZeroDivisionError: division by zero
+2026-08-04 09:38:27 - my_logger - ERROR - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.65 - Error occurred: division by zero
+Traceback (most recent call last):
+  File "c:\Users\SHUBHAM\Desktop\B07_Python\logg_enhanced.py", line 57, in <module>
+    division(10, 0)  # This will raise ZeroDivisionError
+    ^^^^^^^^^^^^^^^
+  File "c:\Users\SHUBHAM\Desktop\B07_Python\logg_enhanced.py", line 46, in division
+    c = a / b
+        ~~^~~
+ZeroDivisionError: division by zero
+2026-08-04 09:38:27 - my_logger - INFO - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.68 - Division completed successfully.
+2026-08-04 09:38:27 - my_logger - WARNING - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.71 - This is a warning message.
+2026-08-04 09:38:27 - my_logger - ERROR - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.74 - This is an error message.
+2026-08-04 09:38:27 - my_logger - CRITICAL - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.77 - This is a critical message.

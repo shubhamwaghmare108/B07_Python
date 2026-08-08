@@ -24,7 +24,7 @@ logger = logging.getLogger("my_logger")
 
 # Set the logger to capture DEBUG and above
 # (handlers can be more restrictive)
-logger.setLevel(logging.DEBUG)
+#logger.setLevel(logging.DEBUG)
 
 # Create formatter (reusable for all handlers)
 # Consistent format across all outputs
@@ -38,7 +38,7 @@ formatter = logging.Formatter(
 # HANDLER 1: File Handler - Captures everything (DEBUG+)
 # ============================================================================
 # Use for: Persistent log storage for debugging and auditing
-file_handler = logging.FileHandler('app2.log', mode='a')
+file_handler = logging.FileHandler('application1.log', mode='a')
 file_handler.setLevel(logging.DEBUG)            # Capture all messages
 file_handler.setFormatter(formatter)            # Apply format
 
@@ -64,7 +64,7 @@ stream_handler.setFormatter(formatter)
 email_handler = SMTPHandler(
     mailhost=('smtp.gmail.com', 587),          # Gmail SMTP server
     fromaddr='scwagh123@gmail.com',            # Sender address
-    toaddrs=['tejasviniukey@gmail.com','sujalashtankar12@gmail.com'],                # Recipients list
+    toaddrs=['pratikborikar88@gmail.com','mithileshraisane@gmail.com'],                # Recipients list
     subject='[ALERT] Application Error',        # Email subject
     credentials=('scwagh123@gmail.com', 'app password'),  # Login
     secure=()                                   # Use TLS (tuple triggers STARTTLS)
@@ -91,23 +91,23 @@ def main():
     print("="*60 + "\n")
     
     # DEBUG: File only
-    # Destination: app2.log
+    # Destination: application1.log
     logger.debug("This is a debug message.")
     
     # INFO: File + Console
-    # Destination: app2.log, stdout
+    # Destination: application1.log, stdout
     logger.info("This is an info message.")
     
     # WARNING: File + Console
-    # Destination: app2.log, stdout
+    # Destination: application1.log, stdout
     logger.warning("This is a warning message.")
     
     # ERROR: File + Console + Email
-    # Destination: app2.log, stdout, ops@company.com
+    # Destination: application1.log, stdout, ops@company.com
     logger.error("This is an error message.")
     
     # CRITICAL: File + Console + Email
-    # Destination: app2.log, stdout, ops@company.com
+    # Destination: application1.log, stdout, ops@company.com
     logger.critical("This is a critical message.")
     
     print("\n" + "="*60)

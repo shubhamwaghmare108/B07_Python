@@ -1,0 +1,8 @@
+2026-08-04 10:03:51 - my_logger - WARNING - function main:LineNo.103 - This is a warning message.
+2026-08-04 10:03:51 - my_logger - ERROR - function main:LineNo.107 - This is an error message.
+2026-08-04 10:04:01 - my_logger - CRITICAL - function main:LineNo.111 - This is a critical message.
+2026-08-04 10:04:09 - my_logger - WARNING - function process_request:LineNo.220 - Destructive action requested
+2026-08-04 10:07:40 - my_logger - WARNING - function main:LineNo.103 - This is a warning message.
+2026-08-04 10:07:40 - my_logger - ERROR - function main:LineNo.107 - This is an error message.
+2026-08-04 10:07:50 - my_logger - CRITICAL - function main:LineNo.111 - This is a critical message.
+2026-08-04 10:07:58 - my_logger - WARNING - function process_request:LineNo.220 - Destructive action requested
