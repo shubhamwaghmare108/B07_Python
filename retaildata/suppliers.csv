@@ -1,0 +1,301 @@
+supplier_id,supplier_code,supplier_name,supplier_type,city,state,payment_days,lead_time_days,annual_contract_value_lakh,is_preferred_vendor,years_associated,created_at
+1,SUP001,Reddy & Sons,Manufacturer,Kolkata,West Bengal,15,2,144.11,0,6,2026-06-24 14:39:36
+2,SUP002,Bharat FMCG Ltd,Manufacturer,Jodhpur,Rajasthan,60,16,136.59,0,9,2026-06-24 14:39:36
+3,SUP003,Gupta FMCG Ltd,Distributor,Jaipur,Rajasthan,30,3,34.38,1,2,2026-06-24 14:39:36
+4,SUP004,Haldiram Distributors,Direct Importer,Kolkata,West Bengal,45,15,79.39,0,18,2026-06-24 14:39:36
+5,SUP005,Kumar FMCG Ltd,Local Vendor,Mumbai,Maharashtra,45,4,465.61,0,10,2026-06-24 14:39:36
+6,SUP006,Suvidha & Sons,Distributor,Bhopal,Madhya Pradesh,75,9,34.38,0,10,2026-06-24 14:39:36
+7,SUP007,Ganesh Foods Pvt Ltd,Manufacturer,Thiruvananthapuram,Kerala,30,17,70.72,0,1,2026-06-24 14:39:36
+8,SUP008,Patel Industries Pvt Ltd,Wholesaler,Faridabad,Haryana,15,19,11.43,0,17,2026-06-24 14:39:36
+9,SUP009,Sharma Agro Industries,Distributor,Thiruvananthapuram,Kerala,75,13,167.84,0,15,2026-06-24 14:39:36
+10,SUP010,Nestle Supply Chain,Distributor,Gurugram,Haryana,60,12,422.42,0,22,2026-06-24 14:39:36
+11,SUP011,Adani Wilmar Enterprises,Local Vendor,Warangal,Telangana,90,19,221.97,0,2,2026-06-24 14:39:36
+12,SUP012,MTR & Sons,Wholesaler,Faridabad,Haryana,30,11,39.22,0,14,2026-06-24 14:39:36
+13,SUP013,Amul Agro Industries,Wholesaler,Jaipur,Rajasthan,30,16,40.47,0,8,2026-06-24 14:39:36
+14,SUP014,Dabur Trading Co,Wholesaler,Thane,Maharashtra,30,6,71.94,1,6,2026-06-24 14:39:36
+15,SUP015,Marico Wholesale Mart,FMCG Brand,Madurai,Tamil Nadu,45,12,261.74,1,22,2026-06-24 14:39:36
+16,SUP016,Aashirvaad Supply Chain,Local Vendor,New Delhi,Delhi,45,7,36.4,0,6,2026-06-24 14:39:36
+17,SUP017,ITC FMCG Ltd,Wholesaler,Patna,Bihar,45,11,184.21,0,16,2026-06-24 14:39:36
+18,SUP018,Iyer Distributors,Manufacturer,Faridabad,Haryana,60,5,77.22,1,14,2026-06-24 14:39:36
+19,SUP019,Gupta Industries Pvt Ltd,Distributor,Patna,Bihar,30,21,42.34,0,11,2026-06-24 14:39:36
+20,SUP020,Dabur Distributors,Local Vendor,Gurugram,Haryana,45,16,50.74,0,18,2026-06-24 14:39:36
+21,SUP021,Agarwal Foods Pvt Ltd,Manufacturer,Coimbatore,Tamil Nadu,30,5,327.06,1,14,2026-06-24 14:39:36
+22,SUP022,Reddy Trading Co,Wholesaler,Noida,Uttar Pradesh,30,10,313.81,1,2,2026-06-24 14:39:36
+23,SUP023,Amul Agro Industries,Distributor,Jodhpur,Rajasthan,45,10,98.22,1,8,2026-06-24 14:39:36
+24,SUP024,Reliance Retail Foods Pvt Ltd,Direct Importer,Warangal,Telangana,60,19,138.25,0,4,2026-06-24 14:39:36
+25,SUP025,Verma Distributors,Direct Importer,Mumbai,Maharashtra,30,16,69.49,1,18,2026-06-24 14:39:36
+26,SUP026,Adani Wilmar Trading Co,Direct Importer,Vijayawada,Andhra Pradesh,45,17,140.74,1,8,2026-06-24 14:39:36
+27,SUP027,Sharma & Sons,Distributor,Bengaluru,Karnataka,30,19,225.23,1,3,2026-06-24 14:39:36
+28,SUP028,Patel Foods Pvt Ltd,FMCG Brand,Faridabad,Haryana,45,11,80.48,0,18,2026-06-24 14:39:36
+29,SUP029,Hindustan Unilever Supply Chain,Manufacturer,Warangal,Telangana,75,8,252.42,1,19,2026-06-24 14:39:36
+30,SUP030,Britannia FMCG Ltd,FMCG Brand,Patna,Bihar,30,3,395.22,0,7,2026-06-24 14:39:36
+31,SUP031,Patel Agro Industries,Manufacturer,Hyderabad,Telangana,45,19,238.56,0,21,2026-06-24 14:39:36
+32,SUP032,Patel Foods Pvt Ltd,FMCG Brand,Mysuru,Karnataka,30,15,119.2,0,19,2026-06-24 14:39:36
+33,SUP033,Sharma Wholesale Mart,Local Vendor,Faridabad,Haryana,15,4,39.4,1,22,2026-06-24 14:39:36
+34,SUP034,Iyer Agro Industries,Local Vendor,New Delhi,Delhi,60,11,342.59,0,12,2026-06-24 14:39:36
+35,SUP035,Adani Wilmar Trading Co,Local Vendor,Lucknow,Uttar Pradesh,75,19,32.41,1,1,2026-06-24 14:39:36
+36,SUP036,Verma Foods Pvt Ltd,Manufacturer,Bengaluru,Karnataka,45,20,538.11,0,14,2026-06-24 14:39:36
+37,SUP037,Nestle Distributors,Wholesaler,Kolkata,West Bengal,90,19,228.53,0,4,2026-06-24 14:39:36
+38,SUP038,Iyer & Sons,FMCG Brand,Jodhpur,Rajasthan,15,17,189.45,1,9,2026-06-24 14:39:36
+39,SUP039,Shah Trading Co,Local Vendor,Indore,Madhya Pradesh,30,16,161.66,0,16,2026-06-24 14:39:36
+40,SUP040,Ganesh Supply Chain,Direct Importer,Kochi,Kerala,30,10,128.98,0,8,2026-06-24 14:39:36
+41,SUP041,Bharat Enterprises,Distributor,Jodhpur,Rajasthan,45,20,811.21,0,2,2026-06-24 14:39:36
+42,SUP042,Tata Consumer Industries Pvt Ltd,FMCG Brand,Jodhpur,Rajasthan,60,9,299.58,1,21,2026-06-24 14:39:36
+43,SUP043,Patel Enterprises,Manufacturer,Noida,Uttar Pradesh,45,18,75.71,0,2,2026-06-24 14:39:36
+44,SUP044,Haldiram Trading Co,Manufacturer,Delhi,Delhi,45,21,77.47,1,10,2026-06-24 14:39:36
+45,SUP045,Annapurna Foods Pvt Ltd,Distributor,Hyderabad,Telangana,45,3,539.42,0,16,2026-06-24 14:39:36
+46,SUP046,Singh Enterprises,FMCG Brand,Surat,Gujarat,90,16,161.64,0,22,2026-06-24 14:39:36
+47,SUP047,Ganesh FMCG Ltd,Manufacturer,Vadodara,Gujarat,90,10,189.08,0,20,2026-06-24 14:39:36
+48,SUP048,Gupta FMCG Ltd,Manufacturer,Patna,Bihar,60,3,192.42,1,13,2026-06-24 14:39:36
+49,SUP049,Mahalakshmi Trading Co,Wholesaler,Mysuru,Karnataka,60,8,44.06,1,3,2026-06-24 14:39:36
+50,SUP050,Mehta Enterprises,FMCG Brand,Coimbatore,Tamil Nadu,15,15,285.67,0,19,2026-06-24 14:39:36
+51,SUP051,Reddy Supply Chain,Manufacturer,Kolkata,West Bengal,45,7,187.22,1,4,2026-06-24 14:39:36
+52,SUP052,Annapurna Industries Pvt Ltd,Wholesaler,Visakhapatnam,Andhra Pradesh,15,15,27.38,1,10,2026-06-24 14:39:36
+53,SUP053,Ganesh Agro Industries,Direct Importer,Vadodara,Gujarat,45,12,38.87,1,13,2026-06-24 14:39:36
+54,SUP054,ITC Agro Industries,Direct Importer,Howrah,West Bengal,45,7,122.63,1,18,2026-06-24 14:39:36
+55,SUP055,Ganesh Enterprises,Manufacturer,Amritsar,Punjab,30,9,422.56,0,1,2026-06-24 14:39:36
+56,SUP056,Tata Consumer Distributors,Local Vendor,Amritsar,Punjab,90,6,330.7,0,10,2026-06-24 14:39:36
+57,SUP057,Shah Distributors,Distributor,Rajkot,Gujarat,30,9,94.12,0,4,2026-06-24 14:39:36
+58,SUP058,Royal Enterprises,Manufacturer,New Delhi,Delhi,60,10,473.58,0,10,2026-06-24 14:39:36
+59,SUP059,Reliance Retail Industries Pvt Ltd,FMCG Brand,Howrah,West Bengal,90,5,700.57,0,22,2026-06-24 14:39:36
+60,SUP060,Britannia Distributors,Manufacturer,Mysuru,Karnataka,60,17,40.68,1,16,2026-06-24 14:39:36
+61,SUP061,Shah FMCG Ltd,FMCG Brand,Jodhpur,Rajasthan,30,19,146.21,1,6,2026-06-24 14:39:36
+62,SUP062,Bharat Distributors,Direct Importer,Jaipur,Rajasthan,45,13,95.9,1,9,2026-06-24 14:39:36
+63,SUP063,Royal Distributors,Manufacturer,Ludhiana,Punjab,45,4,140.57,0,8,2026-06-24 14:39:36
+64,SUP064,Iyer Supply Chain,Distributor,Bhopal,Madhya Pradesh,15,7,16.08,0,15,2026-06-24 14:39:36
+65,SUP065,Dabur Trading Co,FMCG Brand,New Delhi,Delhi,15,19,154.83,1,1,2026-06-24 14:39:36
+66,SUP066,Sharma Wholesale Mart,Manufacturer,Amritsar,Punjab,45,11,58.43,0,18,2026-06-24 14:39:36
+67,SUP067,Reliance Retail Trading Co,Manufacturer,Faridabad,Haryana,30,12,53.09,0,21,2026-06-24 14:39:36
+68,SUP068,Verma Enterprises,FMCG Brand,Vijayawada,Andhra Pradesh,75,19,679.65,0,2,2026-06-24 14:39:36
+69,SUP069,Singh Agro Industries,Distributor,Faridabad,Haryana,45,9,69.48,0,8,2026-06-24 14:39:36
+70,SUP070,Hindustan Unilever & Sons,Manufacturer,Jaipur,Rajasthan,30,15,164.27,0,18,2026-06-24 14:39:36
+71,SUP071,Amul Supply Chain,Manufacturer,Ghaziabad,Uttar Pradesh,45,16,229.13,1,10,2026-06-24 14:39:36
+72,SUP072,Bharat Wholesale Mart,FMCG Brand,Nashik,Maharashtra,60,7,108.42,0,19,2026-06-24 14:39:36
+73,SUP073,Hindustan Unilever Agro Industries,FMCG Brand,Patna,Bihar,30,14,22.48,1,7,2026-06-24 14:39:36
+74,SUP074,Tata Consumer Agro Industries,Local Vendor,Delhi,Delhi,30,19,128.55,1,1,2026-06-24 14:39:36
+75,SUP075,Singh FMCG Ltd,FMCG Brand,Kolkata,West Bengal,30,15,30.03,0,19,2026-06-24 14:39:36
+76,SUP076,Patel Industries Pvt Ltd,Wholesaler,Vadodara,Gujarat,45,12,197.96,0,2,2026-06-24 14:39:36
+77,SUP077,Shah Distributors,Wholesaler,Gurugram,Haryana,45,19,434.63,1,4,2026-06-24 14:39:36
+78,SUP078,Marico Wholesale Mart,Wholesaler,Jaipur,Rajasthan,45,10,385.79,0,14,2026-06-24 14:39:36
+79,SUP079,Tata Consumer FMCG Ltd,Direct Importer,Hyderabad,Telangana,60,21,41.02,0,5,2026-06-24 14:39:36
+80,SUP080,Suvidha Trading Co,Manufacturer,Vijayawada,Andhra Pradesh,30,5,104.23,1,1,2026-06-24 14:39:36
+81,SUP081,Singh Foods Pvt Ltd,Distributor,Thiruvananthapuram,Kerala,45,17,52.36,1,17,2026-06-24 14:39:36
+82,SUP082,Parle & Sons,Local Vendor,Jaipur,Rajasthan,30,20,60.96,1,21,2026-06-24 14:39:36
+83,SUP083,Mahalakshmi Agro Industries,Manufacturer,Vadodara,Gujarat,30,2,86.25,1,6,2026-06-24 14:39:36
+84,SUP084,Gupta Foods Pvt Ltd,Wholesaler,New Delhi,Delhi,60,2,70.63,0,22,2026-06-24 14:39:36
+85,SUP085,Shah FMCG Ltd,Local Vendor,Patna,Bihar,15,19,80.97,0,13,2026-06-24 14:39:36
+86,SUP086,Tata Consumer Trading Co,Local Vendor,Vijayawada,Andhra Pradesh,60,10,292.7,0,3,2026-06-24 14:39:36
+87,SUP087,Shah Wholesale Mart,Wholesaler,Coimbatore,Tamil Nadu,45,7,148.96,1,18,2026-06-24 14:39:36
+88,SUP088,Marico Trading Co,Direct Importer,Amritsar,Punjab,45,3,40.66,1,4,2026-06-24 14:39:36
+89,SUP089,Dabur Distributors,FMCG Brand,Faridabad,Haryana,45,4,187.72,1,12,2026-06-24 14:39:36
+90,SUP090,Hindustan Unilever & Sons,Distributor,Bhopal,Madhya Pradesh,60,6,66.31,0,7,2026-06-24 14:39:36
+91,SUP091,Patel Enterprises,Direct Importer,Vijayawada,Andhra Pradesh,90,21,151.08,1,8,2026-06-24 14:39:36
+92,SUP092,Bharat Wholesale Mart,Manufacturer,Jaipur,Rajasthan,60,12,139.69,1,15,2026-06-24 14:39:36
+93,SUP093,Nestle Trading Co,Local Vendor,Thane,Maharashtra,90,6,163.5,0,4,2026-06-24 14:39:36
+94,SUP094,Patel Wholesale Mart,Manufacturer,Visakhapatnam,Andhra Pradesh,60,12,22.74,0,10,2026-06-24 14:39:36
+95,SUP095,Marico Trading Co,Direct Importer,Bhopal,Madhya Pradesh,30,13,101.96,1,8,2026-06-24 14:39:36
+96,SUP096,Royal Agro Industries,Manufacturer,Vijayawada,Andhra Pradesh,45,4,195.34,0,21,2026-06-24 14:39:36
+97,SUP097,Hindustan Unilever FMCG Ltd,Manufacturer,Ludhiana,Punjab,45,14,103.52,0,17,2026-06-24 14:39:36
+98,SUP098,Rao Foods Pvt Ltd,Distributor,Visakhapatnam,Andhra Pradesh,30,21,138.57,0,18,2026-06-24 14:39:36
+99,SUP099,MTR Wholesale Mart,Wholesaler,Coimbatore,Tamil Nadu,60,20,287.69,1,7,2026-06-24 14:39:36
+100,SUP100,Ganesh Trading Co,Direct Importer,Kanpur,Uttar Pradesh,60,17,396.43,0,11,2026-06-24 14:39:36
+101,SUP101,Fortune & Sons,Direct Importer,Indore,Madhya Pradesh,30,8,194.48,1,5,2026-06-24 14:39:36
+102,SUP102,Amul Trading Co,Wholesaler,Thiruvananthapuram,Kerala,45,7,665.39,0,2,2026-06-24 14:39:36
+103,SUP103,Hindustan Industries Pvt Ltd,FMCG Brand,Jaipur,Rajasthan,75,6,85.83,0,21,2026-06-24 14:39:36
+104,SUP104,Annapurna Foods Pvt Ltd,Direct Importer,Nagpur,Maharashtra,30,10,165.16,1,10,2026-06-24 14:39:36
+105,SUP105,Tata Consumer Enterprises,Distributor,Bhopal,Madhya Pradesh,30,18,77.43,0,6,2026-06-24 14:39:36
+106,SUP106,Haldiram FMCG Ltd,Wholesaler,Vadodara,Gujarat,30,16,91.87,0,8,2026-06-24 14:39:36
+107,SUP107,Nestle Enterprises,Wholesaler,Vijayawada,Andhra Pradesh,90,17,493.73,1,22,2026-06-24 14:39:36
+108,SUP108,Suvidha Industries Pvt Ltd,Manufacturer,New Delhi,Delhi,60,3,190.6,1,16,2026-06-24 14:39:36
+109,SUP109,Dabur Enterprises,Local Vendor,Chennai,Tamil Nadu,45,10,95.35,0,11,2026-06-24 14:39:36
+110,SUP110,Annapurna Agro Industries,Manufacturer,Thiruvananthapuram,Kerala,90,15,119.25,1,11,2026-06-24 14:39:36
+111,SUP111,Patel Wholesale Mart,Direct Importer,Faridabad,Haryana,30,16,163.15,1,10,2026-06-24 14:39:36
+112,SUP112,Krishna Agro Industries,Distributor,Surat,Gujarat,45,7,232.98,0,5,2026-06-24 14:39:36
+113,SUP113,Hindustan & Sons,Local Vendor,Mumbai,Maharashtra,15,2,302.7,1,9,2026-06-24 14:39:36
+114,SUP114,Suvidha Trading Co,Distributor,Patna,Bihar,30,11,108.0,0,22,2026-06-24 14:39:36
+115,SUP115,Amul Supply Chain,Wholesaler,Patna,Bihar,75,17,181.91,0,8,2026-06-24 14:39:36
+116,SUP116,Bharat Agro Industries,Manufacturer,Hyderabad,Telangana,45,7,72.87,1,9,2026-06-24 14:39:36
+117,SUP117,Fortune & Sons,Direct Importer,Mangaluru,Karnataka,30,14,33.72,1,9,2026-06-24 14:39:36
+118,SUP118,Hindustan Supply Chain,Wholesaler,Rajkot,Gujarat,90,11,175.2,0,21,2026-06-24 14:39:36
+119,SUP119,Sharma Enterprises,Wholesaler,New Delhi,Delhi,60,17,66.04,1,3,2026-06-24 14:39:36
+120,SUP120,MTR Foods Pvt Ltd,Manufacturer,Thane,Maharashtra,30,19,51.01,0,5,2026-06-24 14:39:36
+121,SUP121,Gupta Enterprises,Distributor,Hyderabad,Telangana,90,6,845.14,0,4,2026-06-24 14:39:36
+122,SUP122,Gupta Foods Pvt Ltd,Distributor,Delhi,Delhi,75,14,147.32,0,5,2026-06-24 14:39:36
+123,SUP123,Dabur Distributors,Wholesaler,Ahmedabad,Gujarat,30,11,482.47,0,10,2026-06-24 14:39:36
+124,SUP124,Tata Consumer Foods Pvt Ltd,Direct Importer,Bhopal,Madhya Pradesh,60,16,31.24,0,4,2026-06-24 14:39:36
+125,SUP125,Reddy Industries Pvt Ltd,Distributor,Warangal,Telangana,45,11,336.98,1,18,2026-06-24 14:39:36
+126,SUP126,Tata Consumer Enterprises,Manufacturer,Faridabad,Haryana,60,17,157.88,1,20,2026-06-24 14:39:36
+127,SUP127,Krishna Foods Pvt Ltd,Direct Importer,Noida,Uttar Pradesh,30,2,748.32,0,1,2026-06-24 14:39:36
+128,SUP128,Tata Consumer Wholesale Mart,Local Vendor,Coimbatore,Tamil Nadu,30,4,280.76,0,14,2026-06-24 14:39:36
+129,SUP129,Reddy Supply Chain,FMCG Brand,Amritsar,Punjab,45,2,719.0,0,4,2026-06-24 14:39:36
+130,SUP130,Suvidha Trading Co,Wholesaler,Mangaluru,Karnataka,60,6,297.93,0,13,2026-06-24 14:39:36
+131,SUP131,Kumar Wholesale Mart,Direct Importer,Rajkot,Gujarat,60,16,202.82,1,10,2026-06-24 14:39:36
+132,SUP132,Annapurna Enterprises,Wholesaler,Kolkata,West Bengal,60,10,125.96,0,1,2026-06-24 14:39:36
+133,SUP133,National Supply Chain,Manufacturer,Visakhapatnam,Andhra Pradesh,45,15,88.93,0,22,2026-06-24 14:39:36
+134,SUP134,Bharat Enterprises,FMCG Brand,Kolkata,West Bengal,60,2,114.68,0,21,2026-06-24 14:39:36
+135,SUP135,Krishna Agro Industries,Direct Importer,Jaipur,Rajasthan,15,2,236.61,1,15,2026-06-24 14:39:36
+136,SUP136,Rao Supply Chain,Direct Importer,Jodhpur,Rajasthan,90,7,176.5,0,19,2026-06-24 14:39:36
+137,SUP137,Fortune Industries Pvt Ltd,Distributor,Vijayawada,Andhra Pradesh,45,20,77.18,0,16,2026-06-24 14:39:36
+138,SUP138,Aashirvaad Enterprises,Manufacturer,Ludhiana,Punjab,45,4,396.89,0,19,2026-06-24 14:39:36
+139,SUP139,Fortune FMCG Ltd,Local Vendor,Thiruvananthapuram,Kerala,60,6,281.72,0,14,2026-06-24 14:39:36
+140,SUP140,Agarwal Foods Pvt Ltd,Wholesaler,Mysuru,Karnataka,30,16,181.46,0,10,2026-06-24 14:39:36
+141,SUP141,Gupta Agro Industries,Wholesaler,Pune,Maharashtra,45,6,527.39,1,8,2026-06-24 14:39:36
+142,SUP142,Patel Trading Co,Direct Importer,Noida,Uttar Pradesh,30,19,24.22,1,17,2026-06-24 14:39:36
+143,SUP143,National FMCG Ltd,Local Vendor,Hyderabad,Telangana,60,11,738.81,0,20,2026-06-24 14:39:36
+144,SUP144,Patel Foods Pvt Ltd,FMCG Brand,New Delhi,Delhi,15,7,404.63,1,7,2026-06-24 14:39:36
+145,SUP145,Nestle Agro Industries,Wholesaler,Bengaluru,Karnataka,60,13,166.8,1,3,2026-06-24 14:39:36
+146,SUP146,Patanjali Supply Chain,Wholesaler,Jaipur,Rajasthan,30,17,148.41,0,2,2026-06-24 14:39:36
+147,SUP147,Suvidha Trading Co,FMCG Brand,Ludhiana,Punjab,45,5,30.18,0,12,2026-06-24 14:39:36
+148,SUP148,Hindustan Unilever Supply Chain,Wholesaler,New Delhi,Delhi,75,12,79.22,0,18,2026-06-24 14:39:36
+149,SUP149,Hindustan Unilever Enterprises,Local Vendor,Vijayawada,Andhra Pradesh,60,12,490.29,0,10,2026-06-24 14:39:36
+150,SUP150,MTR Trading Co,Manufacturer,Madurai,Tamil Nadu,30,5,30.32,0,16,2026-06-24 14:39:36
+151,SUP151,MTR Wholesale Mart,Local Vendor,Bengaluru,Karnataka,30,15,306.18,1,21,2026-06-24 14:39:36
+152,SUP152,Amul Supply Chain,Manufacturer,Nagpur,Maharashtra,15,21,29.29,1,11,2026-06-24 14:39:36
+153,SUP153,Nestle Supply Chain,Wholesaler,Delhi,Delhi,60,19,782.46,0,2,2026-06-24 14:39:36
+154,SUP154,Godrej Foods Pvt Ltd,FMCG Brand,Lucknow,Uttar Pradesh,90,9,150.67,1,7,2026-06-24 14:39:36
+155,SUP155,Saffola Industries Pvt Ltd,Wholesaler,Amritsar,Punjab,60,4,65.31,0,4,2026-06-24 14:39:36
+156,SUP156,Britannia & Sons,Manufacturer,Ghaziabad,Uttar Pradesh,45,9,93.37,0,14,2026-06-24 14:39:36
+157,SUP157,Adani Wilmar Wholesale Mart,Wholesaler,Jaipur,Rajasthan,45,15,814.94,0,7,2026-06-24 14:39:36
+158,SUP158,Iyer Distributors,Direct Importer,Kolkata,West Bengal,45,8,149.06,1,13,2026-06-24 14:39:36
+159,SUP159,Mahalakshmi FMCG Ltd,Manufacturer,Jodhpur,Rajasthan,30,2,109.05,0,14,2026-06-24 14:39:36
+160,SUP160,ITC Foods Pvt Ltd,Wholesaler,Warangal,Telangana,30,12,198.17,1,7,2026-06-24 14:39:36
+161,SUP161,Amul Foods Pvt Ltd,Wholesaler,Faridabad,Haryana,90,3,100.55,0,7,2026-06-24 14:39:36
+162,SUP162,Bharat Enterprises,Direct Importer,Chennai,Tamil Nadu,60,20,302.58,0,5,2026-06-24 14:39:36
+163,SUP163,Hindustan Enterprises,Direct Importer,Thane,Maharashtra,45,18,428.63,1,9,2026-06-24 14:39:36
+164,SUP164,Krishna Enterprises,Wholesaler,Indore,Madhya Pradesh,30,7,82.08,0,21,2026-06-24 14:39:36
+165,SUP165,National Industries Pvt Ltd,Direct Importer,Nagpur,Maharashtra,90,19,461.1,0,22,2026-06-24 14:39:36
+166,SUP166,Amul Foods Pvt Ltd,Distributor,Thiruvananthapuram,Kerala,45,2,688.24,0,7,2026-06-24 14:39:36
+167,SUP167,MTR Enterprises,FMCG Brand,Madurai,Tamil Nadu,30,7,192.28,0,1,2026-06-24 14:39:36
+168,SUP168,Mahalakshmi Foods Pvt Ltd,Distributor,Nashik,Maharashtra,45,13,44.11,0,5,2026-06-24 14:39:36
+169,SUP169,Royal Industries Pvt Ltd,Direct Importer,Surat,Gujarat,30,17,754.07,0,3,2026-06-24 14:39:36
+170,SUP170,Mehta Enterprises,Direct Importer,Lucknow,Uttar Pradesh,60,15,338.78,0,2,2026-06-24 14:39:36
+171,SUP171,Patel & Sons,Distributor,New Delhi,Delhi,90,9,554.81,0,13,2026-06-24 14:39:36
+172,SUP172,Premier Wholesale Mart,Distributor,Visakhapatnam,Andhra Pradesh,90,17,159.53,1,1,2026-06-24 14:39:36
+173,SUP173,Shah Distributors,FMCG Brand,Warangal,Telangana,60,8,53.09,1,16,2026-06-24 14:39:36
+174,SUP174,Fortune Wholesale Mart,FMCG Brand,Amritsar,Punjab,90,19,131.43,0,6,2026-06-24 14:39:36
+175,SUP175,MTR Enterprises,Manufacturer,Warangal,Telangana,45,18,296.34,0,14,2026-06-24 14:39:36
+176,SUP176,Godrej Agro Industries,Distributor,Indore,Madhya Pradesh,45,17,289.56,0,2,2026-06-24 14:39:36
+177,SUP177,Parle Foods Pvt Ltd,Distributor,New Delhi,Delhi,90,20,729.32,0,15,2026-06-24 14:39:36
+178,SUP178,Mahalakshmi Agro Industries,Direct Importer,Patna,Bihar,15,9,122.99,0,20,2026-06-24 14:39:36
+179,SUP179,Suvidha Foods Pvt Ltd,Wholesaler,Nagpur,Maharashtra,60,18,13.08,1,21,2026-06-24 14:39:36
+180,SUP180,Suvidha Distributors,Direct Importer,Bhopal,Madhya Pradesh,75,12,847.01,0,21,2026-06-24 14:39:36
+181,SUP181,Agarwal Distributors,Wholesaler,Jaipur,Rajasthan,30,13,719.58,1,18,2026-06-24 14:39:36
+182,SUP182,Aashirvaad Supply Chain,Local Vendor,Patna,Bihar,15,15,89.94,1,21,2026-06-24 14:39:36
+183,SUP183,Hindustan Enterprises,FMCG Brand,Mangaluru,Karnataka,30,7,80.3,1,22,2026-06-24 14:39:36
+184,SUP184,Verma Industries Pvt Ltd,FMCG Brand,Patna,Bihar,30,3,497.05,0,7,2026-06-24 14:39:36
+185,SUP185,Marico Trading Co,Wholesaler,Ghaziabad,Uttar Pradesh,75,5,23.8,0,6,2026-06-24 14:39:36
+186,SUP186,Verma Supply Chain,Manufacturer,Chennai,Tamil Nadu,15,15,155.25,0,19,2026-06-24 14:39:36
+187,SUP187,Patanjali Supply Chain,Local Vendor,Vadodara,Gujarat,90,10,141.98,1,4,2026-06-24 14:39:36
+188,SUP188,Rao Agro Industries,Wholesaler,Hyderabad,Telangana,30,15,174.37,0,16,2026-06-24 14:39:36
+189,SUP189,Haldiram Enterprises,Direct Importer,New Delhi,Delhi,60,9,293.96,0,2,2026-06-24 14:39:36
+190,SUP190,Annapurna & Sons,Local Vendor,Coimbatore,Tamil Nadu,30,2,102.67,0,19,2026-06-24 14:39:36
+191,SUP191,Sharma Wholesale Mart,Wholesaler,Howrah,West Bengal,60,13,187.0,1,1,2026-06-24 14:39:36
+192,SUP192,Patel Foods Pvt Ltd,Distributor,Hyderabad,Telangana,90,16,117.68,1,1,2026-06-24 14:39:36
+193,SUP193,Dabur Distributors,Wholesaler,Ludhiana,Punjab,45,15,145.66,1,2,2026-06-24 14:39:36
+194,SUP194,Mehta Distributors,Direct Importer,Mumbai,Maharashtra,60,17,160.03,0,1,2026-06-24 14:39:36
+195,SUP195,Adani Wilmar Wholesale Mart,Local Vendor,Warangal,Telangana,60,20,49.03,0,20,2026-06-24 14:39:36
+196,SUP196,Gupta Agro Industries,FMCG Brand,Bengaluru,Karnataka,30,16,498.0,0,12,2026-06-24 14:39:36
+197,SUP197,Ganesh Wholesale Mart,Manufacturer,Jodhpur,Rajasthan,15,16,161.33,0,11,2026-06-24 14:39:36
+198,SUP198,Patanjali Industries Pvt Ltd,Direct Importer,Mumbai,Maharashtra,90,13,176.95,0,17,2026-06-24 14:39:36
+199,SUP199,Marico FMCG Ltd,Manufacturer,Patna,Bihar,45,10,81.38,0,11,2026-06-24 14:39:36
+200,SUP200,Shah Agro Industries,FMCG Brand,Patna,Bihar,15,21,172.87,1,14,2026-06-24 14:39:36
+201,SUP201,Mahalakshmi Industries Pvt Ltd,Direct Importer,Vijayawada,Andhra Pradesh,60,10,116.87,0,10,2026-06-24 14:39:36
+202,SUP202,Hindustan Unilever Enterprises,FMCG Brand,Kochi,Kerala,75,3,50.78,0,8,2026-06-24 14:39:36
+203,SUP203,Agarwal & Sons,Local Vendor,Amritsar,Punjab,60,11,429.13,1,19,2026-06-24 14:39:36
+204,SUP204,ITC Distributors,Local Vendor,Kochi,Kerala,75,20,330.55,0,11,2026-06-24 14:39:36
+205,SUP205,Premier Agro Industries,FMCG Brand,Vijayawada,Andhra Pradesh,45,6,69.83,0,16,2026-06-24 14:39:36
+206,SUP206,Iyer Trading Co,FMCG Brand,Delhi,Delhi,30,21,110.55,0,2,2026-06-24 14:39:36
+207,SUP207,National Enterprises,Direct Importer,Surat,Gujarat,30,16,86.21,0,12,2026-06-24 14:39:36
+208,SUP208,Verma FMCG Ltd,Local Vendor,Madurai,Tamil Nadu,45,4,109.47,0,5,2026-06-24 14:39:36
+209,SUP209,Patel Agro Industries,Manufacturer,Jodhpur,Rajasthan,45,4,86.38,0,3,2026-06-24 14:39:36
+210,SUP210,Royal Industries Pvt Ltd,Wholesaler,Nagpur,Maharashtra,90,9,64.62,1,5,2026-06-24 14:39:36
+211,SUP211,ITC Foods Pvt Ltd,Direct Importer,Mumbai,Maharashtra,15,3,153.75,0,22,2026-06-24 14:39:36
+212,SUP212,Verma Wholesale Mart,Distributor,Kanpur,Uttar Pradesh,60,18,270.4,0,21,2026-06-24 14:39:36
+213,SUP213,Patanjali & Sons,FMCG Brand,Madurai,Tamil Nadu,30,13,95.93,1,4,2026-06-24 14:39:36
+214,SUP214,Suvidha FMCG Ltd,Direct Importer,Howrah,West Bengal,45,10,147.16,0,16,2026-06-24 14:39:36
+215,SUP215,Suvidha Wholesale Mart,FMCG Brand,Coimbatore,Tamil Nadu,90,5,72.01,0,17,2026-06-24 14:39:36
+216,SUP216,MTR Agro Industries,FMCG Brand,Thiruvananthapuram,Kerala,45,10,122.74,0,9,2026-06-24 14:39:36
+217,SUP217,Premier Supply Chain,Distributor,Gurugram,Haryana,30,6,248.27,0,7,2026-06-24 14:39:36
+218,SUP218,Suvidha Supply Chain,Distributor,Patna,Bihar,30,9,140.7,0,3,2026-06-24 14:39:36
+219,SUP219,MTR & Sons,Wholesaler,Faridabad,Haryana,30,11,419.86,1,1,2026-06-24 14:39:36
+220,SUP220,Patel Industries Pvt Ltd,Manufacturer,Lucknow,Uttar Pradesh,90,3,423.23,1,11,2026-06-24 14:39:36
+221,SUP221,Verma Wholesale Mart,Wholesaler,Patna,Bihar,75,12,495.19,0,19,2026-06-24 14:39:36
+222,SUP222,Dabur Trading Co,Local Vendor,Patna,Bihar,45,3,529.78,1,18,2026-06-24 14:39:36
+223,SUP223,Marico Enterprises,FMCG Brand,Hyderabad,Telangana,45,2,396.92,1,22,2026-06-24 14:39:36
+224,SUP224,Hindustan Unilever Industries Pvt Ltd,FMCG Brand,Mangaluru,Karnataka,45,5,49.12,1,16,2026-06-24 14:39:36
+225,SUP225,Agarwal Enterprises,Direct Importer,Vadodara,Gujarat,45,19,41.52,0,3,2026-06-24 14:39:36
+226,SUP226,Patel Foods Pvt Ltd,Wholesaler,Gurugram,Haryana,45,4,58.26,1,8,2026-06-24 14:39:36
+227,SUP227,Mahalakshmi Trading Co,FMCG Brand,Ahmedabad,Gujarat,45,6,326.78,0,17,2026-06-24 14:39:36
+228,SUP228,Britannia Distributors,Direct Importer,Ahmedabad,Gujarat,60,8,59.46,0,14,2026-06-24 14:39:36
+229,SUP229,Annapurna Foods Pvt Ltd,Wholesaler,Hyderabad,Telangana,45,14,95.39,1,3,2026-06-24 14:39:36
+230,SUP230,Saffola & Sons,Manufacturer,Chennai,Tamil Nadu,75,21,129.09,0,9,2026-06-24 14:39:36
+231,SUP231,National FMCG Ltd,Local Vendor,Jaipur,Rajasthan,30,15,87.64,0,3,2026-06-24 14:39:36
+232,SUP232,Gupta Industries Pvt Ltd,FMCG Brand,New Delhi,Delhi,45,20,25.46,0,2,2026-06-24 14:39:36
+233,SUP233,Parle Supply Chain,Manufacturer,Visakhapatnam,Andhra Pradesh,15,15,73.69,0,3,2026-06-24 14:39:36
+234,SUP234,Verma & Sons,Direct Importer,Patna,Bihar,75,4,553.39,0,12,2026-06-24 14:39:36
+235,SUP235,Annapurna & Sons,Local Vendor,Howrah,West Bengal,30,10,154.42,1,22,2026-06-24 14:39:36
+236,SUP236,Parle Trading Co,Manufacturer,New Delhi,Delhi,60,3,127.41,0,19,2026-06-24 14:39:36
+237,SUP237,Amul Trading Co,Local Vendor,Indore,Madhya Pradesh,30,11,70.09,0,18,2026-06-24 14:39:36
+238,SUP238,Britannia Wholesale Mart,FMCG Brand,Jaipur,Rajasthan,30,2,34.62,1,19,2026-06-24 14:39:36
+239,SUP239,Aashirvaad Trading Co,FMCG Brand,Visakhapatnam,Andhra Pradesh,45,14,122.76,0,9,2026-06-24 14:39:36
+240,SUP240,Verma Wholesale Mart,Direct Importer,Gurugram,Haryana,60,21,322.06,1,18,2026-06-24 14:39:36
+241,SUP241,Fortune Trading Co,FMCG Brand,New Delhi,Delhi,45,13,134.04,1,18,2026-06-24 14:39:36
+242,SUP242,ITC Distributors,FMCG Brand,Howrah,West Bengal,60,12,134.04,1,16,2026-06-24 14:39:36
+243,SUP243,Parle Enterprises,Wholesaler,Thane,Maharashtra,30,12,78.24,1,11,2026-06-24 14:39:36
+244,SUP244,Haldiram & Sons,Local Vendor,Mumbai,Maharashtra,60,4,181.41,0,4,2026-06-24 14:39:36
+245,SUP245,Marico Distributors,Direct Importer,Kanpur,Uttar Pradesh,75,19,350.7,1,8,2026-06-24 14:39:36
+246,SUP246,Adani Wilmar Distributors,Distributor,Bengaluru,Karnataka,30,8,434.7,1,20,2026-06-24 14:39:36
+247,SUP247,Krishna Foods Pvt Ltd,Local Vendor,Bhopal,Madhya Pradesh,15,21,12.27,0,10,2026-06-24 14:39:36
+248,SUP248,Amul Trading Co,FMCG Brand,Thiruvananthapuram,Kerala,30,13,229.63,0,20,2026-06-24 14:39:36
+249,SUP249,Verma Trading Co,Manufacturer,Coimbatore,Tamil Nadu,60,14,117.85,1,18,2026-06-24 14:39:36
+250,SUP250,Dabur Enterprises,Local Vendor,Agra,Uttar Pradesh,30,21,27.49,0,14,2026-06-24 14:39:36
+251,SUP251,Fortune Industries Pvt Ltd,Wholesaler,Nashik,Maharashtra,30,5,821.65,0,2,2026-06-24 14:39:36
+252,SUP252,National & Sons,FMCG Brand,Warangal,Telangana,30,21,140.85,0,18,2026-06-24 14:39:36
+253,SUP253,Nestle Wholesale Mart,Manufacturer,Ludhiana,Punjab,15,13,58.02,1,22,2026-06-24 14:39:36
+254,SUP254,Britannia FMCG Ltd,Wholesaler,New Delhi,Delhi,30,4,197.95,1,15,2026-06-24 14:39:36
+255,SUP255,Nestle Distributors,Direct Importer,Thiruvananthapuram,Kerala,15,9,185.39,0,9,2026-06-24 14:39:36
+256,SUP256,Britannia Supply Chain,Manufacturer,Patna,Bihar,15,19,178.14,1,8,2026-06-24 14:39:36
+257,SUP257,Saffola Trading Co,Manufacturer,Bengaluru,Karnataka,45,13,584.97,1,13,2026-06-24 14:39:36
+258,SUP258,Suvidha Industries Pvt Ltd,Direct Importer,Howrah,West Bengal,45,2,69.81,1,20,2026-06-24 14:39:36
+259,SUP259,Annapurna Industries Pvt Ltd,Local Vendor,Mysuru,Karnataka,45,14,92.7,0,8,2026-06-24 14:39:36
+260,SUP260,Agarwal & Sons,Wholesaler,Kochi,Kerala,45,20,326.02,0,16,2026-06-24 14:39:36
+261,SUP261,National Supply Chain,Distributor,Indore,Madhya Pradesh,75,11,93.76,1,22,2026-06-24 14:39:36
+262,SUP262,Suvidha & Sons,Direct Importer,Amritsar,Punjab,90,9,44.97,0,9,2026-06-24 14:39:36
+263,SUP263,Reliance Retail Foods Pvt Ltd,Manufacturer,Indore,Madhya Pradesh,45,15,484.68,0,11,2026-06-24 14:39:36
+264,SUP264,Rao Industries Pvt Ltd,Distributor,Mysuru,Karnataka,15,3,38.66,0,2,2026-06-24 14:39:36
+265,SUP265,Marico Wholesale Mart,Manufacturer,Gurugram,Haryana,45,2,76.28,1,3,2026-06-24 14:39:36
+266,SUP266,Gupta Enterprises,Wholesaler,Jodhpur,Rajasthan,15,17,10.64,0,2,2026-06-24 14:39:36
+267,SUP267,Agarwal Foods Pvt Ltd,Wholesaler,Surat,Gujarat,45,5,14.22,0,6,2026-06-24 14:39:36
+268,SUP268,Royal & Sons,FMCG Brand,Ludhiana,Punjab,45,9,638.76,0,21,2026-06-24 14:39:36
+269,SUP269,Aashirvaad Wholesale Mart,Distributor,Faridabad,Haryana,90,17,59.51,0,1,2026-06-24 14:39:36
+270,SUP270,Marico Enterprises,Local Vendor,Patna,Bihar,30,15,59.05,0,2,2026-06-24 14:39:36
+271,SUP271,Kumar FMCG Ltd,Direct Importer,Jodhpur,Rajasthan,30,10,236.64,1,13,2026-06-24 14:39:36
+272,SUP272,Reddy Foods Pvt Ltd,FMCG Brand,Kanpur,Uttar Pradesh,15,18,738.68,0,12,2026-06-24 14:39:36
+273,SUP273,MTR Agro Industries,Direct Importer,Delhi,Delhi,45,19,27.31,0,20,2026-06-24 14:39:36
+274,SUP274,Reliance Retail Trading Co,Wholesaler,Faridabad,Haryana,45,19,71.27,0,9,2026-06-24 14:39:36
+275,SUP275,Nestle Wholesale Mart,Local Vendor,Ludhiana,Punjab,45,20,56.22,0,17,2026-06-24 14:39:36
+276,SUP276,Agarwal Industries Pvt Ltd,Local Vendor,Bengaluru,Karnataka,15,21,58.61,1,2,2026-06-24 14:39:36
+277,SUP277,Tata Consumer Enterprises,Manufacturer,Jodhpur,Rajasthan,30,14,75.47,1,8,2026-06-24 14:39:36
+278,SUP278,Hindustan Foods Pvt Ltd,Wholesaler,Hyderabad,Telangana,60,15,78.06,1,3,2026-06-24 14:39:36
+279,SUP279,Suvidha Enterprises,Wholesaler,New Delhi,Delhi,75,3,30.58,0,17,2026-06-24 14:39:36
+280,SUP280,Reddy Wholesale Mart,Manufacturer,Bhopal,Madhya Pradesh,30,4,410.78,0,11,2026-06-24 14:39:36
+281,SUP281,Mehta Wholesale Mart,FMCG Brand,Thiruvananthapuram,Kerala,60,2,182.67,1,1,2026-06-24 14:39:36
+282,SUP282,Verma Foods Pvt Ltd,Distributor,Faridabad,Haryana,45,12,112.35,1,5,2026-06-24 14:39:36
+283,SUP283,Aashirvaad Foods Pvt Ltd,FMCG Brand,Lucknow,Uttar Pradesh,60,2,58.73,1,1,2026-06-24 14:39:36
+284,SUP284,Kumar Agro Industries,FMCG Brand,Amritsar,Punjab,30,9,93.39,1,14,2026-06-24 14:39:36
+285,SUP285,Haldiram Foods Pvt Ltd,Local Vendor,Visakhapatnam,Andhra Pradesh,30,5,111.96,1,7,2026-06-24 14:39:36
+286,SUP286,Saffola Wholesale Mart,Local Vendor,Kanpur,Uttar Pradesh,30,13,152.65,1,4,2026-06-24 14:39:36
+287,SUP287,Tata Consumer Industries Pvt Ltd,Manufacturer,Patna,Bihar,45,18,493.72,1,19,2026-06-24 14:39:36
+288,SUP288,Hindustan Agro Industries,Wholesaler,Howrah,West Bengal,75,2,231.34,1,14,2026-06-24 14:39:36
+289,SUP289,Bharat Enterprises,Wholesaler,Ghaziabad,Uttar Pradesh,30,16,18.4,1,12,2026-06-24 14:39:36
+290,SUP290,Hindustan Agro Industries,Manufacturer,New Delhi,Delhi,60,5,604.18,1,21,2026-06-24 14:39:36
+291,SUP291,Krishna Enterprises,Wholesaler,Coimbatore,Tamil Nadu,30,6,821.45,0,9,2026-06-24 14:39:36
+292,SUP292,Kumar Supply Chain,Manufacturer,Thiruvananthapuram,Kerala,45,11,519.85,0,12,2026-06-24 14:39:36
+293,SUP293,MTR FMCG Ltd,Local Vendor,Patna,Bihar,30,4,149.19,0,19,2026-06-24 14:39:36
+294,SUP294,Kumar Agro Industries,Direct Importer,Agra,Uttar Pradesh,60,14,92.47,0,19,2026-06-24 14:39:36
+295,SUP295,Rao Industries Pvt Ltd,Direct Importer,Agra,Uttar Pradesh,60,19,40.39,1,19,2026-06-24 14:39:36
+296,SUP296,Amul & Sons,Local Vendor,Hyderabad,Telangana,30,12,123.43,1,8,2026-06-24 14:39:36
+297,SUP297,Sharma Supply Chain,Distributor,Pune,Maharashtra,30,14,224.06,1,15,2026-06-24 14:39:36
+298,SUP298,Royal Wholesale Mart,Direct Importer,Coimbatore,Tamil Nadu,60,11,467.49,0,12,2026-06-24 14:39:36
+299,SUP299,Amul Agro Industries,Distributor,Jaipur,Rajasthan,15,15,35.58,0,7,2026-06-24 14:39:36
+300,SUP300,Iyer Supply Chain,Distributor,Bhopal,Madhya Pradesh,45,16,185.95,0,8,2026-06-24 14:39:36

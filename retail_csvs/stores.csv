@@ -1,0 +1,501 @@
+store_id,store_code,store_name,city,state,city_tier,cluster_zone,store_type,store_size_sqft,opening_date,created_at
+1,STR01001,QuickMart Gwalior - Plaza-18,Gwalior,Madhya Pradesh,3,Central,Convenience,1959,2019-12-31,2026-06-24 14:39:36
+2,STR01002,MegaMart Srinagar - East-20,Srinagar,Jammu and Kashmir,2,North,Department Store,35022,2019-10-09,2026-06-24 14:39:36
+3,STR01003,UrbanMart Tirunelveli - Central-27,Tirunelveli,Tamil Nadu,3,South,Hypermarket,43089,2022-07-16,2026-06-24 14:39:36
+4,STR01004,ValueStore Ludhiana - Square-32,Ludhiana,Punjab,2,North,Wholesale,40746,2010-10-28,2026-06-24 14:39:36
+5,STR01005,BigBazaar Srinagar - East-74,Srinagar,Jammu and Kashmir,2,North,Express,5435,2013-04-08,2026-06-24 14:39:36
+6,STR01006,DailyNeeds Ahmedabad - Plaza-92,Ahmedabad,Gujarat,1,West,Convenience,993,2016-11-24,2026-06-24 14:39:36
+7,STR01007,SmartShop Kanpur - West-61,Kanpur,Uttar Pradesh,2,North,Hypermarket,84978,2021-07-07,2026-06-24 14:39:36
+8,STR01008,UrbanMart Asansol - Square-12,Asansol,West Bengal,3,East,Supermarket,34913,2024-08-28,2026-06-24 14:39:36
+9,STR01009,SmartShop Chandigarh - Junction-30,Chandigarh,Chandigarh,2,North,Express,3799,2021-02-13,2026-06-24 14:39:36
+10,STR01010,BigBazaar Moradabad - North-69,Moradabad,Uttar Pradesh,3,North,Convenience,1489,2024-06-23,2026-06-24 14:39:36
+11,STR01011,CityStore Tiruchirappalli - North-71,Tiruchirappalli,Tamil Nadu,3,South,Supermarket,28994,2016-08-09,2026-06-24 14:39:36
+12,STR01012,DailyNeeds Chandigarh - Square-33,Chandigarh,Chandigarh,2,North,Supermarket,30849,2012-02-07,2026-06-24 14:39:36
+13,STR01013,DailyNeeds Mumbai - Square-90,Mumbai,Maharashtra,1,West,Express,2836,2017-10-30,2026-06-24 14:39:36
+14,STR01014,BigBazaar Asansol - South-34,Asansol,West Bengal,3,East,Express,2116,2025-11-24,2026-06-24 14:39:36
+15,STR01015,UrbanMart Vadodara - South-40,Vadodara,Gujarat,2,West,Hypermarket,61720,2020-12-23,2026-06-24 14:39:36
+16,STR01016,ValueStore Nellore - Plaza-55,Nellore,Andhra Pradesh,3,South,Convenience,2097,2015-03-17,2026-06-24 14:39:36
+17,STR01017,FreshKart Ranchi - Plaza-32,Ranchi,Jharkhand,3,East,Supermarket,17498,2010-09-05,2026-06-24 14:39:36
+18,STR01018,MegaMart Patiala - Park-81,Patiala,Punjab,3,North,Convenience,1767,2023-11-19,2026-06-24 14:39:36
+19,STR01019,FreshKart Nellore - Plaza-80,Nellore,Andhra Pradesh,3,South,Convenience,1258,2018-09-24,2026-06-24 14:39:36
+20,STR01020,MegaMart Vellore - Central-07,Vellore,Tamil Nadu,3,South,Wholesale,30925,2020-10-29,2026-06-24 14:39:36
+21,STR01021,QuickMart Tiruchirappalli - Square-60,Tiruchirappalli,Tamil Nadu,3,South,Express,3404,2024-01-21,2026-06-24 14:39:36
+22,STR01022,SmartShop Kozhikode - Square-16,Kozhikode,Kerala,3,South,Express,3463,2011-05-15,2026-06-24 14:39:36
+23,STR01023,ValueStore Bhavnagar - Junction-15,Bhavnagar,Gujarat,3,West,Wholesale,34558,2010-10-06,2026-06-24 14:39:36
+24,STR01024,MegaMart Kolhapur - Junction-20,Kolhapur,Maharashtra,3,West,Express,4666,2017-02-05,2026-06-24 14:39:36
+25,STR01025,SmartShop Aligarh - North-50,Aligarh,Uttar Pradesh,3,North,Convenience,1388,2018-10-08,2026-06-24 14:39:36
+26,STR01026,FreshKart Indore - Park-07,Indore,Madhya Pradesh,2,Central,Hypermarket,83533,2018-01-15,2026-06-24 14:39:36
+27,STR01027,BigBazaar Hyderabad - Junction-56,Hyderabad,Telangana,1,South,Supermarket,16892,2022-01-01,2026-06-24 14:39:36
+28,STR01028,UrbanMart Shimla - North-08,Shimla,Himachal Pradesh,3,North,Express,2383,2014-03-16,2026-06-24 14:39:36
+29,STR01029,RetailMart Solapur - East-34,Solapur,Maharashtra,3,West,Department Store,28524,2018-08-03,2026-06-24 14:39:36
+30,STR01030,UrbanMart Bhavnagar - Square-93,Bhavnagar,Gujarat,3,West,Convenience,2307,2022-12-17,2026-06-24 14:39:36
+31,STR01031,DailyNeeds Bhagalpur - Main-55,Bhagalpur,Bihar,3,East,Convenience,2928,2022-04-07,2026-06-24 14:39:36
+32,STR01032,SmartShop Ranchi - Square-32,Ranchi,Jharkhand,3,East,Wholesale,55796,2015-06-08,2026-06-24 14:39:36
+33,STR01033,DailyNeeds Ujjain - North-29,Ujjain,Madhya Pradesh,3,Central,Wholesale,58651,2014-05-26,2026-06-24 14:39:36
+34,STR01034,FreshKart Howrah - Square-90,Howrah,West Bengal,3,East,Express,4179,2011-02-28,2026-06-24 14:39:36
+35,STR01035,ValueStore Ranchi - Plaza-72,Ranchi,Jharkhand,3,East,Convenience,1939,2012-09-06,2026-06-24 14:39:36
+36,STR01036,QuickMart Udaipur - Plaza-09,Udaipur,Rajasthan,3,North,Wholesale,26148,2021-03-14,2026-06-24 14:39:36
+37,STR01037,QuickMart Raipur - East-10,Raipur,Chhattisgarh,3,Central,Wholesale,46953,2017-09-07,2026-06-24 14:39:36
+38,STR01038,ValueStore Durgapur - Main-11,Durgapur,West Bengal,3,East,Convenience,2521,2024-09-12,2026-06-24 14:39:36
+39,STR01039,BigBazaar Chennai - South-99,Chennai,Tamil Nadu,1,South,Supermarket,26624,2015-06-20,2026-06-24 14:39:36
+40,STR01040,SmartShop Howrah - South-78,Howrah,West Bengal,3,East,Express,4020,2011-04-28,2026-06-24 14:39:36
+41,STR01041,ValueStore Tirupati - Park-18,Tirupati,Andhra Pradesh,3,South,Express,2582,2020-10-17,2026-06-24 14:39:36
+42,STR01042,DailyNeeds Srinagar - Plaza-55,Srinagar,Jammu and Kashmir,2,North,Hypermarket,50266,2018-05-08,2026-06-24 14:39:36
+43,STR01043,BigBazaar Bhavnagar - Central-33,Bhavnagar,Gujarat,3,West,Express,4848,2014-01-07,2026-06-24 14:39:36
+44,STR01044,UrbanMart Agra - North-85,Agra,Uttar Pradesh,2,North,Express,2349,2025-12-02,2026-06-24 14:39:36
+45,STR01045,ValueStore Rohtak - Plaza-16,Rohtak,Haryana,3,North,Express,5917,2015-07-17,2026-06-24 14:39:36
+46,STR01046,ValueStore Muzaffarpur - South-50,Muzaffarpur,Bihar,3,East,Convenience,876,2015-10-26,2026-06-24 14:39:36
+47,STR01047,DailyNeeds Rohtak - Central-90,Rohtak,Haryana,3,North,Hypermarket,78160,2022-12-18,2026-06-24 14:39:36
+48,STR01048,UrbanMart Shimla - West-45,Shimla,Himachal Pradesh,3,North,Convenience,2070,2021-05-02,2026-06-24 14:39:36
+49,STR01049,MegaMart Agra - Park-28,Agra,Uttar Pradesh,2,North,Supermarket,27362,2017-05-24,2026-06-24 14:39:36
+50,STR01050,ValueStore Gurgaon - Junction-13,Gurgaon,Haryana,3,North,Convenience,2373,2025-02-16,2026-06-24 14:39:36
+51,STR01051,RetailMart Mumbai - Main-49,Mumbai,Maharashtra,1,West,Department Store,40457,2019-10-06,2026-06-24 14:39:36
+52,STR01052,CityStore Gandhinagar - Square-95,Gandhinagar,Gujarat,3,West,Department Store,44338,2011-06-06,2026-06-24 14:39:36
+53,STR01053,DailyNeeds Gurgaon - Junction-33,Gurgaon,Haryana,3,North,Wholesale,54421,2024-10-08,2026-06-24 14:39:36
+54,STR01054,MegaMart Patna - Central-14,Patna,Bihar,2,East,Supermarket,19787,2015-12-28,2026-06-24 14:39:36
+55,STR01055,MegaMart Bareilly - Central-68,Bareilly,Uttar Pradesh,3,North,Express,5502,2019-06-25,2026-06-24 14:39:36
+56,STR01056,DailyNeeds Udaipur - East-46,Udaipur,Rajasthan,3,North,Wholesale,43527,2012-10-06,2026-06-24 14:39:36
+57,STR01057,ValueStore Bhilai - Main-83,Bhilai,Chhattisgarh,3,Central,Express,3568,2012-09-14,2026-06-24 14:39:36
+58,STR01058,UrbanMart Jamshedpur - Main-63,Jamshedpur,Jharkhand,3,East,Express,5585,2010-01-01,2026-06-24 14:39:36
+59,STR01059,RetailMart Karimnagar - Main-06,Karimnagar,Telangana,3,South,Hypermarket,77255,2010-01-10,2026-06-24 14:39:36
+60,STR01060,MegaMart Mysuru - Plaza-05,Mysuru,Karnataka,2,South,Supermarket,27523,2023-08-14,2026-06-24 14:39:36
+61,STR01061,UrbanMart Sangli - North-14,Sangli,Maharashtra,3,West,Convenience,2356,2014-07-06,2026-06-24 14:39:36
+62,STR01062,SmartShop Moradabad - Plaza-97,Moradabad,Uttar Pradesh,3,North,Express,5565,2015-06-30,2026-06-24 14:39:36
+63,STR01063,FreshKart Kollam - East-98,Kollam,Kerala,3,South,Supermarket,25115,2010-05-05,2026-06-24 14:39:36
+64,STR01064,CityStore Gandhinagar - South-94,Gandhinagar,Gujarat,3,West,Supermarket,21125,2016-03-28,2026-06-24 14:39:36
+65,STR01065,SmartShop Kozhikode - Main-37,Kozhikode,Kerala,3,South,Express,3784,2019-02-15,2026-06-24 14:39:36
+66,STR01066,UrbanMart Haridwar - Square-44,Haridwar,Uttarakhand,3,North,Wholesale,47082,2019-05-30,2026-06-24 14:39:36
+67,STR01067,RetailMart Bareilly - Junction-38,Bareilly,Uttar Pradesh,3,North,Supermarket,21531,2012-01-02,2026-06-24 14:39:36
+68,STR01068,DailyNeeds Kolkata - North-71,Kolkata,West Bengal,1,East,Supermarket,19304,2019-12-07,2026-06-24 14:39:36
+69,STR01069,QuickMart Ujjain - Central-20,Ujjain,Madhya Pradesh,3,Central,Convenience,1560,2023-09-27,2026-06-24 14:39:36
+70,STR01070,DailyNeeds Ludhiana - Junction-94,Ludhiana,Punjab,2,North,Express,3621,2012-08-06,2026-06-24 14:39:36
+71,STR01071,QuickMart Ludhiana - Central-53,Ludhiana,Punjab,2,North,Hypermarket,66137,2025-08-14,2026-06-24 14:39:36
+72,STR01072,QuickMart Dehradun - Central-23,Dehradun,Uttarakhand,3,North,Wholesale,57205,2021-04-02,2026-06-24 14:39:36
+73,STR01073,SmartShop Guwahati - Plaza-87,Guwahati,Assam,2,East,Supermarket,32626,2019-06-09,2026-06-24 14:39:36
+74,STR01074,ValueStore Durgapur - Park-22,Durgapur,West Bengal,3,East,Express,3716,2012-06-22,2026-06-24 14:39:36
+75,STR01075,UrbanMart Chandigarh - West-38,Chandigarh,Chandigarh,2,North,Wholesale,59897,2017-01-07,2026-06-24 14:39:36
+76,STR01076,BigBazaar Vijayawada - North-84,Vijayawada,Andhra Pradesh,2,South,Express,3511,2025-03-04,2026-06-24 14:39:36
+77,STR01077,DailyNeeds Amravati - Square-19,Amravati,Maharashtra,3,West,Hypermarket,82137,2025-07-21,2026-06-24 14:39:36
+78,STR01078,RetailMart Bengaluru - East-48,Bengaluru,Karnataka,1,South,Supermarket,23011,2025-05-25,2026-06-24 14:39:36
+79,STR01079,DailyNeeds Nagpur - Junction-97,Nagpur,Maharashtra,2,West,Supermarket,32041,2013-12-08,2026-06-24 14:39:36
+80,STR01080,RetailMart Tiruchirappalli - Square-90,Tiruchirappalli,Tamil Nadu,3,South,Supermarket,33639,2012-03-02,2026-06-24 14:39:36
+81,STR01081,RetailMart Ranchi - Plaza-69,Ranchi,Jharkhand,3,East,Express,5175,2023-07-24,2026-06-24 14:39:36
+82,STR01082,BigBazaar Jodhpur - Park-99,Jodhpur,Rajasthan,3,North,Hypermarket,67839,2010-07-16,2026-06-24 14:39:36
+83,STR01083,CityStore Kollam - Park-77,Kollam,Kerala,3,South,Convenience,1124,2014-07-08,2026-06-24 14:39:36
+84,STR01084,DailyNeeds Shimla - Main-07,Shimla,Himachal Pradesh,3,North,Express,5530,2019-12-26,2026-06-24 14:39:36
+85,STR01085,FreshKart Rajkot - Park-20,Rajkot,Gujarat,2,West,Convenience,1308,2019-09-29,2026-06-24 14:39:36
+86,STR01086,ValueStore Allahabad - Junction-08,Allahabad,Uttar Pradesh,3,North,Convenience,2170,2020-05-17,2026-06-24 14:39:36
+87,STR01087,FreshKart Patiala - West-65,Patiala,Punjab,3,North,Express,3601,2025-08-30,2026-06-24 14:39:36
+88,STR01088,RetailMart Kollam - West-86,Kollam,Kerala,3,South,Wholesale,34481,2022-10-10,2026-06-24 14:39:36
+89,STR01089,RetailMart Ajmer - Park-74,Ajmer,Rajasthan,3,North,Department Store,33798,2014-04-15,2026-06-24 14:39:36
+90,STR01090,MegaMart Faridabad - North-26,Faridabad,Haryana,2,North,Hypermarket,41913,2011-06-08,2026-06-24 14:39:36
+91,STR01091,DailyNeeds Saharanpur - Main-30,Saharanpur,Uttar Pradesh,3,North,Convenience,2520,2021-11-01,2026-06-24 14:39:36
+92,STR01092,CityStore Jodhpur - South-41,Jodhpur,Rajasthan,3,North,Express,3645,2020-11-15,2026-06-24 14:39:36
+93,STR01093,UrbanMart Bhilai - Park-87,Bhilai,Chhattisgarh,3,Central,Express,5624,2018-02-19,2026-06-24 14:39:36
+94,STR01094,DailyNeeds Aurangabad - Central-13,Aurangabad,Maharashtra,2,West,Hypermarket,76347,2013-10-23,2026-06-24 14:39:36
+95,STR01095,MegaMart Junagadh - Square-81,Junagadh,Gujarat,3,West,Convenience,1385,2015-11-04,2026-06-24 14:39:36
+96,STR01096,QuickMart Durgapur - West-25,Durgapur,West Bengal,3,East,Express,4465,2014-05-26,2026-06-24 14:39:36
+97,STR01097,UrbanMart Raipur - Park-41,Raipur,Chhattisgarh,3,Central,Express,5833,2011-05-19,2026-06-24 14:39:36
+98,STR01098,FreshKart Tirunelveli - Square-39,Tirunelveli,Tamil Nadu,3,South,Supermarket,26333,2016-07-21,2026-06-24 14:39:36
+99,STR01099,CityStore Kolkata - Park-57,Kolkata,West Bengal,1,East,Hypermarket,66569,2011-05-18,2026-06-24 14:39:36
+100,STR01100,DailyNeeds Vijayawada - South-31,Vijayawada,Andhra Pradesh,2,South,Department Store,26225,2024-04-30,2026-06-24 14:39:36
+101,STR01101,FreshKart Bikaner - Main-46,Bikaner,Rajasthan,3,North,Express,4372,2017-10-29,2026-06-24 14:39:36
+102,STR01102,DailyNeeds Cuttack - Square-62,Cuttack,Odisha,3,East,Supermarket,17730,2012-10-15,2026-06-24 14:39:36
+103,STR01103,BigBazaar Dehradun - Central-50,Dehradun,Uttarakhand,3,North,Express,2280,2017-08-15,2026-06-24 14:39:36
+104,STR01104,QuickMart Solapur - Park-17,Solapur,Maharashtra,3,West,Convenience,804,2022-08-11,2026-06-24 14:39:36
+105,STR01105,QuickMart Visakhapatnam - West-13,Visakhapatnam,Andhra Pradesh,2,South,Supermarket,20720,2021-09-07,2026-06-24 14:39:36
+106,STR01106,CityStore Gurgaon - Junction-85,Gurgaon,Haryana,3,North,Wholesale,37706,2010-12-15,2026-06-24 14:39:36
+107,STR01107,CityStore Visakhapatnam - Junction-97,Visakhapatnam,Andhra Pradesh,2,South,Department Store,27279,2011-02-14,2026-06-24 14:39:36
+108,STR01108,MegaMart Raipur - Junction-81,Raipur,Chhattisgarh,3,Central,Department Store,49819,2023-09-30,2026-06-24 14:39:36
+109,STR01109,RetailMart Jodhpur - East-20,Jodhpur,Rajasthan,3,North,Convenience,2427,2020-10-29,2026-06-24 14:39:36
+110,STR01110,FreshKart Kochi - North-94,Kochi,Kerala,2,South,Hypermarket,88479,2015-04-14,2026-06-24 14:39:36
+111,STR01111,FreshKart Rajkot - Main-89,Rajkot,Gujarat,2,West,Supermarket,29040,2023-05-28,2026-06-24 14:39:36
+112,STR01112,ValueStore Srinagar - South-96,Srinagar,Jammu and Kashmir,2,North,Supermarket,18153,2023-02-26,2026-06-24 14:39:36
+113,STR01113,FreshKart Kozhikode - North-51,Kozhikode,Kerala,3,South,Express,5549,2023-04-21,2026-06-24 14:39:36
+114,STR01114,FreshKart Ujjain - Plaza-87,Ujjain,Madhya Pradesh,3,Central,Convenience,1240,2010-07-20,2026-06-24 14:39:36
+115,STR01115,SmartShop Kozhikode - West-33,Kozhikode,Kerala,3,South,Wholesale,42696,2014-03-16,2026-06-24 14:39:36
+116,STR01116,UrbanMart Patiala - Central-89,Patiala,Punjab,3,North,Department Store,35322,2011-11-14,2026-06-24 14:39:36
+117,STR01117,BigBazaar Junagadh - South-48,Junagadh,Gujarat,3,West,Convenience,1688,2018-05-16,2026-06-24 14:39:36
+118,STR01118,FreshKart Gurgaon - Central-28,Gurgaon,Haryana,3,North,Express,2902,2024-09-23,2026-06-24 14:39:36
+119,STR01119,BigBazaar Bareilly - Park-20,Bareilly,Uttar Pradesh,3,North,Express,4788,2018-03-30,2026-06-24 14:39:36
+120,STR01120,BigBazaar Cuttack - West-23,Cuttack,Odisha,3,East,Express,3485,2012-03-02,2026-06-24 14:39:36
+121,STR01121,SmartShop Varanasi - South-78,Varanasi,Uttar Pradesh,2,North,Supermarket,15865,2023-03-10,2026-06-24 14:39:36
+122,STR01122,FreshKart Jaipur - North-82,Jaipur,Rajasthan,2,North,Convenience,1291,2016-07-03,2026-06-24 14:39:36
+123,STR01123,DailyNeeds Gurgaon - East-24,Gurgaon,Haryana,3,North,Wholesale,49070,2024-12-10,2026-06-24 14:39:36
+124,STR01124,FreshKart Bhilai - North-91,Bhilai,Chhattisgarh,3,Central,Supermarket,29286,2018-10-08,2026-06-24 14:39:36
+125,STR01125,ValueStore Tirupati - Park-87,Tirupati,Andhra Pradesh,3,South,Convenience,2414,2018-06-09,2026-06-24 14:39:36
+126,STR01126,ValueStore Kanpur - South-83,Kanpur,Uttar Pradesh,2,North,Hypermarket,82817,2010-11-25,2026-06-24 14:39:36
+127,STR01127,ValueStore Jabalpur - Junction-73,Jabalpur,Madhya Pradesh,3,Central,Convenience,2669,2012-11-20,2026-06-24 14:39:36
+128,STR01128,UrbanMart Meerut - Plaza-92,Meerut,Uttar Pradesh,2,North,Wholesale,47174,2014-08-02,2026-06-24 14:39:36
+129,STR01129,RetailMart Delhi - Central-08,Delhi,Delhi,1,North,Express,3150,2017-03-21,2026-06-24 14:39:36
+130,STR01130,ValueStore Jamnagar - East-09,Jamnagar,Gujarat,3,West,Convenience,2976,2011-05-07,2026-06-24 14:39:36
+131,STR01131,MegaMart Chennai - Junction-38,Chennai,Tamil Nadu,1,South,Hypermarket,50504,2022-01-28,2026-06-24 14:39:36
+132,STR01132,ValueStore Gorakhpur - Central-11,Gorakhpur,Uttar Pradesh,3,North,Department Store,49009,2025-12-28,2026-06-24 14:39:36
+133,STR01133,MegaMart Bareilly - Plaza-18,Bareilly,Uttar Pradesh,3,North,Supermarket,33295,2019-09-22,2026-06-24 14:39:36
+134,STR01134,FreshKart Asansol - Plaza-92,Asansol,West Bengal,3,East,Supermarket,22600,2012-11-07,2026-06-24 14:39:36
+135,STR01135,SmartShop Allahabad - Main-97,Allahabad,Uttar Pradesh,3,North,Convenience,2481,2010-09-13,2026-06-24 14:39:36
+136,STR01136,RetailMart Belgaum - Junction-74,Belgaum,Karnataka,3,South,Convenience,2426,2020-06-12,2026-06-24 14:39:36
+137,STR01137,ValueStore Ludhiana - Main-96,Ludhiana,Punjab,2,North,Wholesale,52434,2013-01-13,2026-06-24 14:39:36
+138,STR01138,UrbanMart Guntur - Park-27,Guntur,Andhra Pradesh,3,South,Department Store,25219,2018-12-18,2026-06-24 14:39:36
+139,STR01139,CityStore Haridwar - Park-53,Haridwar,Uttarakhand,3,North,Supermarket,21050,2017-03-26,2026-06-24 14:39:36
+140,STR01140,CityStore Kochi - North-47,Kochi,Kerala,2,South,Hypermarket,43601,2024-10-28,2026-06-24 14:39:36
+141,STR01141,ValueStore Cuttack - Junction-55,Cuttack,Odisha,3,East,Department Store,33295,2014-10-03,2026-06-24 14:39:36
+142,STR01142,UrbanMart Mangalore - South-31,Mangalore,Karnataka,3,South,Express,4288,2012-12-15,2026-06-24 14:39:36
+143,STR01143,QuickMart Kolkata - Main-23,Kolkata,West Bengal,1,East,Supermarket,15634,2025-04-12,2026-06-24 14:39:36
+144,STR01144,BigBazaar Thiruvananthapuram - South-99,Thiruvananthapuram,Kerala,2,South,Supermarket,16912,2012-01-30,2026-06-24 14:39:36
+145,STR01145,BigBazaar Varanasi - East-72,Varanasi,Uttar Pradesh,2,North,Department Store,26264,2018-06-04,2026-06-24 14:39:36
+146,STR01146,FreshKart Nellore - Junction-65,Nellore,Andhra Pradesh,3,South,Convenience,963,2011-06-01,2026-06-24 14:39:36
+147,STR01147,FreshKart Jodhpur - East-12,Jodhpur,Rajasthan,3,North,Express,5337,2014-11-13,2026-06-24 14:39:36
+148,STR01148,DailyNeeds Mysuru - Plaza-71,Mysuru,Karnataka,2,South,Hypermarket,75591,2015-02-18,2026-06-24 14:39:36
+149,STR01149,DailyNeeds Jaipur - Junction-59,Jaipur,Rajasthan,2,North,Wholesale,43870,2013-01-06,2026-06-24 14:39:36
+150,STR01150,QuickMart Kanpur - Main-01,Kanpur,Uttar Pradesh,2,North,Department Store,46898,2013-04-02,2026-06-24 14:39:36
+151,STR01151,DailyNeeds Bareilly - East-34,Bareilly,Uttar Pradesh,3,North,Supermarket,18651,2024-05-08,2026-06-24 14:39:36
+152,STR01152,MegaMart Mysuru - Park-50,Mysuru,Karnataka,2,South,Supermarket,33440,2023-05-19,2026-06-24 14:39:36
+153,STR01153,QuickMart Varanasi - Main-56,Varanasi,Uttar Pradesh,2,North,Wholesale,35241,2023-05-19,2026-06-24 14:39:36
+154,STR01154,UrbanMart Howrah - Plaza-14,Howrah,West Bengal,3,East,Express,4641,2020-03-15,2026-06-24 14:39:36
+155,STR01155,FreshKart Jaipur - East-81,Jaipur,Rajasthan,2,North,Convenience,1057,2010-06-14,2026-06-24 14:39:36
+156,STR01156,BigBazaar Kolkata - South-26,Kolkata,West Bengal,1,East,Express,4212,2025-10-19,2026-06-24 14:39:36
+157,STR01157,ValueStore Udaipur - Central-63,Udaipur,Rajasthan,3,North,Express,5796,2010-10-14,2026-06-24 14:39:36
+158,STR01158,UrbanMart Varanasi - Plaza-49,Varanasi,Uttar Pradesh,2,North,Hypermarket,79325,2023-04-25,2026-06-24 14:39:36
+159,STR01159,DailyNeeds Kozhikode - Junction-63,Kozhikode,Kerala,3,South,Department Store,32575,2014-07-04,2026-06-24 14:39:36
+160,STR01160,DailyNeeds Jamshedpur - North-89,Jamshedpur,Jharkhand,3,East,Express,4014,2022-02-24,2026-06-24 14:39:36
+161,STR01161,FreshKart Amravati - Plaza-90,Amravati,Maharashtra,3,West,Hypermarket,53449,2015-02-16,2026-06-24 14:39:36
+162,STR01162,RetailMart Visakhapatnam - North-19,Visakhapatnam,Andhra Pradesh,2,South,Convenience,2630,2012-09-29,2026-06-24 14:39:36
+163,STR01163,DailyNeeds Surat - Plaza-72,Surat,Gujarat,2,West,Hypermarket,46976,2022-12-03,2026-06-24 14:39:36
+164,STR01164,SmartShop Kolkata - Plaza-32,Kolkata,West Bengal,1,East,Supermarket,16301,2016-07-26,2026-06-24 14:39:36
+165,STR01165,MegaMart Gandhinagar - Main-92,Gandhinagar,Gujarat,3,West,Express,4511,2024-02-12,2026-06-24 14:39:36
+166,STR01166,ValueStore Allahabad - Main-45,Allahabad,Uttar Pradesh,3,North,Department Store,28278,2015-06-18,2026-06-24 14:39:36
+167,STR01167,UrbanMart Coimbatore - North-71,Coimbatore,Tamil Nadu,2,South,Wholesale,36385,2019-11-19,2026-06-24 14:39:36
+168,STR01168,SmartShop Meerut - Junction-79,Meerut,Uttar Pradesh,2,North,Supermarket,24836,2014-01-29,2026-06-24 14:39:36
+169,STR01169,DailyNeeds Warangal - Square-65,Warangal,Telangana,3,South,Convenience,2322,2016-03-20,2026-06-24 14:39:36
+170,STR01170,MegaMart Nagpur - Central-75,Nagpur,Maharashtra,2,West,Supermarket,28401,2017-12-12,2026-06-24 14:39:36
+171,STR01171,CityStore Guwahati - South-81,Guwahati,Assam,2,East,Department Store,21238,2021-08-14,2026-06-24 14:39:36
+172,STR01172,RetailMart Jamnagar - North-21,Jamnagar,Gujarat,3,West,Supermarket,34323,2014-01-02,2026-06-24 14:39:36
+173,STR01173,QuickMart Anand - Park-38,Anand,Gujarat,3,West,Express,5466,2020-09-25,2026-06-24 14:39:36
+174,STR01174,UrbanMart Pune - East-55,Pune,Maharashtra,1,West,Supermarket,20246,2012-09-19,2026-06-24 14:39:36
+175,STR01175,UrbanMart Ranchi - Plaza-55,Ranchi,Jharkhand,3,East,Express,4220,2013-04-25,2026-06-24 14:39:36
+176,STR01176,FreshKart Ludhiana - Square-40,Ludhiana,Punjab,2,North,Supermarket,28313,2017-07-04,2026-06-24 14:39:36
+177,STR01177,CityStore Kanpur - Square-20,Kanpur,Uttar Pradesh,2,North,Department Store,34655,2017-11-11,2026-06-24 14:39:36
+178,STR01178,SmartShop Visakhapatnam - West-14,Visakhapatnam,Andhra Pradesh,2,South,Express,2231,2017-01-17,2026-06-24 14:39:36
+179,STR01179,UrbanMart Guwahati - Central-67,Guwahati,Assam,2,East,Supermarket,17939,2014-01-18,2026-06-24 14:39:36
+180,STR01180,SmartShop Junagadh - West-14,Junagadh,Gujarat,3,West,Convenience,2610,2011-08-29,2026-06-24 14:39:36
+181,STR01181,MegaMart Kochi - South-23,Kochi,Kerala,2,South,Convenience,1535,2024-07-26,2026-06-24 14:39:36
+182,STR01182,MegaMart Agra - East-98,Agra,Uttar Pradesh,2,North,Supermarket,18577,2023-05-05,2026-06-24 14:39:36
+183,STR01183,RetailMart Moradabad - Plaza-61,Moradabad,Uttar Pradesh,3,North,Wholesale,49180,2024-06-21,2026-06-24 14:39:36
+184,STR01184,BigBazaar Gandhinagar - South-09,Gandhinagar,Gujarat,3,West,Convenience,2958,2012-02-28,2026-06-24 14:39:36
+185,STR01185,DailyNeeds Faridabad - North-82,Faridabad,Haryana,2,North,Wholesale,55741,2018-12-16,2026-06-24 14:39:36
+186,STR01186,RetailMart Vadodara - Main-56,Vadodara,Gujarat,2,West,Convenience,849,2015-01-20,2026-06-24 14:39:36
+187,STR01187,FreshKart Bhopal - South-77,Bhopal,Madhya Pradesh,2,Central,Supermarket,15582,2024-12-04,2026-06-24 14:39:36
+188,STR01188,BigBazaar Meerut - Main-02,Meerut,Uttar Pradesh,2,North,Express,2983,2021-12-21,2026-06-24 14:39:36
+189,STR01189,RetailMart Raipur - Plaza-11,Raipur,Chhattisgarh,3,Central,Supermarket,26069,2021-04-08,2026-06-24 14:39:36
+190,STR01190,MegaMart Jamnagar - Main-19,Jamnagar,Gujarat,3,West,Department Store,46368,2016-05-02,2026-06-24 14:39:36
+191,STR01191,ValueStore Surat - Park-98,Surat,Gujarat,2,West,Supermarket,24663,2021-09-24,2026-06-24 14:39:36
+192,STR01192,QuickMart Bengaluru - Main-89,Bengaluru,Karnataka,1,South,Hypermarket,59241,2022-05-21,2026-06-24 14:39:36
+193,STR01193,ValueStore Vijayawada - Central-63,Vijayawada,Andhra Pradesh,2,South,Wholesale,41579,2012-02-26,2026-06-24 14:39:36
+194,STR01194,SmartShop Dhanbad - Square-01,Dhanbad,Jharkhand,3,East,Department Store,42373,2024-09-28,2026-06-24 14:39:36
+195,STR01195,SmartShop Muzaffarpur - Square-93,Muzaffarpur,Bihar,3,East,Convenience,2109,2018-04-15,2026-06-24 14:39:36
+196,STR01196,SmartShop Ludhiana - Central-68,Ludhiana,Punjab,2,North,Convenience,2928,2013-08-24,2026-06-24 14:39:36
+197,STR01197,SmartShop Thrissur - South-98,Thrissur,Kerala,3,South,Wholesale,38195,2010-07-29,2026-06-24 14:39:36
+198,STR01198,QuickMart Jabalpur - Main-51,Jabalpur,Madhya Pradesh,3,Central,Hypermarket,56893,2018-08-20,2026-06-24 14:39:36
+199,STR01199,SmartShop Raipur - Central-48,Raipur,Chhattisgarh,3,Central,Convenience,2374,2025-07-26,2026-06-24 14:39:36
+200,STR01200,QuickMart Karimnagar - Central-26,Karimnagar,Telangana,3,South,Express,4618,2021-01-30,2026-06-24 14:39:36
+201,STR01201,ValueStore Saharanpur - North-97,Saharanpur,Uttar Pradesh,3,North,Supermarket,15875,2020-11-29,2026-06-24 14:39:36
+202,STR01202,BigBazaar Amritsar - Central-54,Amritsar,Punjab,3,North,Convenience,1322,2023-09-14,2026-06-24 14:39:36
+203,STR01203,FreshKart Amritsar - Plaza-12,Amritsar,Punjab,3,North,Supermarket,18043,2011-09-29,2026-06-24 14:39:36
+204,STR01204,QuickMart Durgapur - East-87,Durgapur,West Bengal,3,East,Hypermarket,44515,2018-12-18,2026-06-24 14:39:36
+205,STR01205,QuickMart Varanasi - South-05,Varanasi,Uttar Pradesh,2,North,Wholesale,41853,2025-09-21,2026-06-24 14:39:36
+206,STR01206,QuickMart Gwalior - Park-32,Gwalior,Madhya Pradesh,3,Central,Convenience,1983,2024-10-18,2026-06-24 14:39:36
+207,STR01207,CityStore Belgaum - Main-18,Belgaum,Karnataka,3,South,Express,5266,2010-12-09,2026-06-24 14:39:36
+208,STR01208,ValueStore Faridabad - Plaza-21,Faridabad,Haryana,2,North,Supermarket,21177,2014-12-29,2026-06-24 14:39:36
+209,STR01209,QuickMart Gaya - West-63,Gaya,Bihar,3,East,Express,2799,2013-06-28,2026-06-24 14:39:36
+210,STR01210,DailyNeeds Ajmer - Park-68,Ajmer,Rajasthan,3,North,Express,2027,2023-11-16,2026-06-24 14:39:36
+211,STR01211,UrbanMart Gorakhpur - North-91,Gorakhpur,Uttar Pradesh,3,North,Express,3574,2024-03-31,2026-06-24 14:39:36
+212,STR01212,FreshKart Pune - Square-79,Pune,Maharashtra,1,West,Supermarket,20792,2014-10-06,2026-06-24 14:39:36
+213,STR01213,QuickMart Siliguri - Plaza-69,Siliguri,West Bengal,3,East,Department Store,39985,2020-05-18,2026-06-24 14:39:36
+214,STR01214,DailyNeeds Lucknow - Plaza-39,Lucknow,Uttar Pradesh,2,North,Supermarket,28954,2011-01-07,2026-06-24 14:39:36
+215,STR01215,FreshKart Thiruvananthapuram - Plaza-91,Thiruvananthapuram,Kerala,2,South,Hypermarket,66598,2019-03-21,2026-06-24 14:39:36
+216,STR01216,CityStore Dhanbad - Square-67,Dhanbad,Jharkhand,3,East,Wholesale,29461,2022-11-29,2026-06-24 14:39:36
+217,STR01217,ValueStore Salem - South-70,Salem,Tamil Nadu,3,South,Convenience,989,2021-01-16,2026-06-24 14:39:36
+218,STR01218,MegaMart Delhi - Plaza-69,Delhi,Delhi,1,North,Wholesale,36218,2015-03-28,2026-06-24 14:39:36
+219,STR01219,CityStore Hisar - West-03,Hisar,Haryana,3,North,Supermarket,21951,2016-06-03,2026-06-24 14:39:36
+220,STR01220,RetailMart Aligarh - Park-88,Aligarh,Uttar Pradesh,3,North,Express,4279,2010-06-29,2026-06-24 14:39:36
+221,STR01221,SmartShop Gaya - Main-71,Gaya,Bihar,3,East,Express,4283,2015-12-05,2026-06-24 14:39:36
+222,STR01222,CityStore Gandhinagar - Plaza-99,Gandhinagar,Gujarat,3,West,Express,2372,2019-10-20,2026-06-24 14:39:36
+223,STR01223,CityStore Gwalior - Plaza-42,Gwalior,Madhya Pradesh,3,Central,Supermarket,20943,2023-11-04,2026-06-24 14:39:36
+224,STR01224,BigBazaar Nagpur - Junction-50,Nagpur,Maharashtra,2,West,Convenience,2451,2011-08-08,2026-06-24 14:39:36
+225,STR01225,FreshKart Bhilai - North-34,Bhilai,Chhattisgarh,3,Central,Wholesale,47607,2017-09-19,2026-06-24 14:39:36
+226,STR01226,BigBazaar Shimla - Central-86,Shimla,Himachal Pradesh,3,North,Express,4155,2010-07-28,2026-06-24 14:39:36
+227,STR01227,ValueStore Cuttack - East-42,Cuttack,Odisha,3,East,Convenience,2082,2018-06-25,2026-06-24 14:39:36
+228,STR01228,FreshKart Varanasi - East-76,Varanasi,Uttar Pradesh,2,North,Supermarket,18494,2014-07-31,2026-06-24 14:39:36
+229,STR01229,FreshKart Lucknow - West-25,Lucknow,Uttar Pradesh,2,North,Wholesale,34478,2016-10-03,2026-06-24 14:39:36
+230,STR01230,BigBazaar Guntur - Square-71,Guntur,Andhra Pradesh,3,South,Hypermarket,75874,2021-02-23,2026-06-24 14:39:36
+231,STR01231,FreshKart Tirupati - Junction-53,Tirupati,Andhra Pradesh,3,South,Convenience,939,2023-10-18,2026-06-24 14:39:36
+232,STR01232,SmartShop Gwalior - West-50,Gwalior,Madhya Pradesh,3,Central,Department Store,36866,2022-10-01,2026-06-24 14:39:36
+233,STR01233,MegaMart Kolkata - Park-60,Kolkata,West Bengal,1,East,Express,2645,2022-11-17,2026-06-24 14:39:36
+234,STR01234,ValueStore Kanpur - Central-06,Kanpur,Uttar Pradesh,2,North,Supermarket,29358,2020-07-16,2026-06-24 14:39:36
+235,STR01235,RetailMart Ajmer - Main-24,Ajmer,Rajasthan,3,North,Express,5651,2011-11-24,2026-06-24 14:39:36
+236,STR01236,RetailMart Moradabad - East-65,Moradabad,Uttar Pradesh,3,North,Wholesale,26938,2021-05-10,2026-06-24 14:39:36
+237,STR01237,BigBazaar Jamnagar - East-07,Jamnagar,Gujarat,3,West,Supermarket,28381,2021-04-10,2026-06-24 14:39:36
+238,STR01238,MegaMart Ludhiana - Square-99,Ludhiana,Punjab,2,North,Wholesale,55774,2014-07-14,2026-06-24 14:39:36
+239,STR01239,ValueStore Agra - Square-57,Agra,Uttar Pradesh,2,North,Hypermarket,89682,2023-05-15,2026-06-24 14:39:36
+240,STR01240,BigBazaar Udaipur - Main-63,Udaipur,Rajasthan,3,North,Convenience,1171,2015-06-21,2026-06-24 14:39:36
+241,STR01241,SmartShop Dhanbad - East-74,Dhanbad,Jharkhand,3,East,Wholesale,27096,2014-06-07,2026-06-24 14:39:36
+242,STR01242,SmartShop Shimla - Park-30,Shimla,Himachal Pradesh,3,North,Express,4207,2021-05-23,2026-06-24 14:39:36
+243,STR01243,QuickMart Amravati - Junction-25,Amravati,Maharashtra,3,West,Wholesale,33141,2015-09-07,2026-06-24 14:39:36
+244,STR01244,ValueStore Anand - North-39,Anand,Gujarat,3,West,Convenience,1439,2020-07-02,2026-06-24 14:39:36
+245,STR01245,DailyNeeds Jabalpur - Junction-02,Jabalpur,Madhya Pradesh,3,Central,Wholesale,53989,2014-02-23,2026-06-24 14:39:36
+246,STR01246,BigBazaar Gwalior - Plaza-35,Gwalior,Madhya Pradesh,3,Central,Hypermarket,68927,2017-06-21,2026-06-24 14:39:36
+247,STR01247,UrbanMart Bareilly - South-81,Bareilly,Uttar Pradesh,3,North,Convenience,973,2018-05-26,2026-06-24 14:39:36
+248,STR01248,RetailMart Jamshedpur - West-98,Jamshedpur,Jharkhand,3,East,Express,2257,2013-03-04,2026-06-24 14:39:36
+249,STR01249,UrbanMart Warangal - Junction-07,Warangal,Telangana,3,South,Wholesale,28545,2013-03-31,2026-06-24 14:39:36
+250,STR01250,UrbanMart Mumbai - South-19,Mumbai,Maharashtra,1,West,Supermarket,18886,2016-08-05,2026-06-24 14:39:36
+251,STR01251,DailyNeeds Chennai - North-81,Chennai,Tamil Nadu,1,South,Hypermarket,83809,2010-01-04,2026-06-24 14:39:36
+252,STR01252,FreshKart Tirunelveli - East-75,Tirunelveli,Tamil Nadu,3,South,Department Store,25096,2011-05-29,2026-06-24 14:39:36
+253,STR01253,QuickMart Ranchi - North-34,Ranchi,Jharkhand,3,East,Supermarket,34211,2018-04-18,2026-06-24 14:39:36
+254,STR01254,FreshKart Madurai - Plaza-33,Madurai,Tamil Nadu,3,South,Supermarket,30802,2013-11-11,2026-06-24 14:39:36
+255,STR01255,CityStore Faridabad - South-99,Faridabad,Haryana,2,North,Department Store,42995,2014-09-14,2026-06-24 14:39:36
+256,STR01256,CityStore Kolkata - North-35,Kolkata,West Bengal,1,East,Hypermarket,81969,2024-10-02,2026-06-24 14:39:36
+257,STR01257,QuickMart Bhubaneswar - Main-35,Bhubaneswar,Odisha,3,East,Express,4599,2019-03-28,2026-06-24 14:39:36
+258,STR01258,FreshKart Asansol - Square-25,Asansol,West Bengal,3,East,Convenience,2935,2019-08-29,2026-06-24 14:39:36
+259,STR01259,SmartShop Hyderabad - Central-99,Hyderabad,Telangana,1,South,Wholesale,50720,2020-08-12,2026-06-24 14:39:36
+260,STR01260,DailyNeeds Kolkata - Square-94,Kolkata,West Bengal,1,East,Hypermarket,88606,2013-06-15,2026-06-24 14:39:36
+261,STR01261,MegaMart Siliguri - Park-10,Siliguri,West Bengal,3,East,Convenience,1137,2025-12-11,2026-06-24 14:39:36
+262,STR01262,RetailMart Muzaffarpur - South-07,Muzaffarpur,Bihar,3,East,Supermarket,27841,2015-03-31,2026-06-24 14:39:36
+263,STR01263,ValueStore Shimla - Plaza-97,Shimla,Himachal Pradesh,3,North,Express,3488,2018-11-04,2026-06-24 14:39:36
+264,STR01264,QuickMart Bhilai - South-72,Bhilai,Chhattisgarh,3,Central,Supermarket,33638,2018-06-20,2026-06-24 14:39:36
+265,STR01265,DailyNeeds Chandigarh - Main-38,Chandigarh,Chandigarh,2,North,Supermarket,31748,2014-10-11,2026-06-24 14:39:36
+266,STR01266,UrbanMart Gaya - Central-37,Gaya,Bihar,3,East,Express,3010,2020-11-07,2026-06-24 14:39:36
+267,STR01267,MegaMart Moradabad - Square-88,Moradabad,Uttar Pradesh,3,North,Supermarket,19315,2023-04-03,2026-06-24 14:39:36
+268,STR01268,CityStore Srinagar - West-62,Srinagar,Jammu and Kashmir,2,North,Department Store,45558,2017-12-14,2026-06-24 14:39:36
+269,STR01269,DailyNeeds Mumbai - West-60,Mumbai,Maharashtra,1,West,Hypermarket,56311,2022-01-20,2026-06-24 14:39:36
+270,STR01270,QuickMart Mysuru - Central-74,Mysuru,Karnataka,2,South,Convenience,1462,2017-01-23,2026-06-24 14:39:36
+271,STR01271,QuickMart Tiruchirappalli - East-08,Tiruchirappalli,Tamil Nadu,3,South,Hypermarket,53677,2014-01-19,2026-06-24 14:39:36
+272,STR01272,DailyNeeds Moradabad - Park-46,Moradabad,Uttar Pradesh,3,North,Wholesale,41455,2019-08-28,2026-06-24 14:39:36
+273,STR01273,UrbanMart Indore - Junction-37,Indore,Madhya Pradesh,2,Central,Hypermarket,87851,2010-06-25,2026-06-24 14:39:36
+274,STR01274,RetailMart Thiruvananthapuram - Main-51,Thiruvananthapuram,Kerala,2,South,Supermarket,31934,2015-03-29,2026-06-24 14:39:36
+275,STR01275,MegaMart Madurai - Junction-67,Madurai,Tamil Nadu,3,South,Express,4010,2022-10-22,2026-06-24 14:39:36
+276,STR01276,UrbanMart Bhagalpur - Junction-63,Bhagalpur,Bihar,3,East,Express,3846,2014-03-19,2026-06-24 14:39:36
+277,STR01277,MegaMart Jabalpur - East-39,Jabalpur,Madhya Pradesh,3,Central,Convenience,1646,2016-11-24,2026-06-24 14:39:36
+278,STR01278,UrbanMart Patna - West-70,Patna,Bihar,2,East,Department Store,20144,2015-08-04,2026-06-24 14:39:36
+279,STR01279,QuickMart Bhavnagar - Plaza-25,Bhavnagar,Gujarat,3,West,Express,4355,2014-08-25,2026-06-24 14:39:36
+280,STR01280,RetailMart Erode - East-39,Erode,Tamil Nadu,3,South,Department Store,44731,2010-03-20,2026-06-24 14:39:36
+281,STR01281,CityStore Jamshedpur - South-96,Jamshedpur,Jharkhand,3,East,Convenience,1191,2017-06-10,2026-06-24 14:39:36
+282,STR01282,MegaMart Gurgaon - North-31,Gurgaon,Haryana,3,North,Convenience,2548,2012-12-10,2026-06-24 14:39:36
+283,STR01283,FreshKart Jalandhar - Central-05,Jalandhar,Punjab,3,North,Convenience,2422,2025-07-02,2026-06-24 14:39:36
+284,STR01284,UrbanMart Karimnagar - Park-85,Karimnagar,Telangana,3,South,Department Store,45006,2024-01-30,2026-06-24 14:39:36
+285,STR01285,CityStore Jamnagar - Junction-06,Jamnagar,Gujarat,3,West,Convenience,1429,2024-08-03,2026-06-24 14:39:36
+286,STR01286,FreshKart Jalandhar - Junction-98,Jalandhar,Punjab,3,North,Department Store,34622,2022-03-20,2026-06-24 14:39:36
+287,STR01287,SmartShop Jamnagar - East-37,Jamnagar,Gujarat,3,West,Express,2423,2019-05-31,2026-06-24 14:39:36
+288,STR01288,DailyNeeds Rajkot - Main-93,Rajkot,Gujarat,2,West,Supermarket,23503,2022-11-17,2026-06-24 14:39:36
+289,STR01289,MegaMart Srinagar - West-54,Srinagar,Jammu and Kashmir,2,North,Convenience,1489,2015-08-10,2026-06-24 14:39:36
+290,STR01290,MegaMart Bhavnagar - West-53,Bhavnagar,Gujarat,3,West,Supermarket,27105,2012-08-05,2026-06-24 14:39:36
+291,STR01291,QuickMart Amravati - West-45,Amravati,Maharashtra,3,West,Department Store,42581,2020-04-03,2026-06-24 14:39:36
+292,STR01292,UrbanMart Bareilly - Main-40,Bareilly,Uttar Pradesh,3,North,Convenience,1698,2022-07-10,2026-06-24 14:39:36
+293,STR01293,RetailMart Faridabad - Square-25,Faridabad,Haryana,2,North,Supermarket,34320,2021-07-20,2026-06-24 14:39:36
+294,STR01294,RetailMart Surat - Junction-40,Surat,Gujarat,2,West,Convenience,2604,2012-07-24,2026-06-24 14:39:36
+295,STR01295,DailyNeeds Cuttack - West-63,Cuttack,Odisha,3,East,Department Store,29404,2012-09-09,2026-06-24 14:39:36
+296,STR01296,QuickMart Hyderabad - West-97,Hyderabad,Telangana,1,South,Department Store,26280,2023-11-01,2026-06-24 14:39:36
+297,STR01297,DailyNeeds Anand - Junction-54,Anand,Gujarat,3,West,Hypermarket,82936,2015-12-24,2026-06-24 14:39:36
+298,STR01298,RetailMart Coimbatore - Park-36,Coimbatore,Tamil Nadu,2,South,Wholesale,38367,2022-04-14,2026-06-24 14:39:36
+299,STR01299,ValueStore Srinagar - Main-21,Srinagar,Jammu and Kashmir,2,North,Convenience,1468,2010-10-01,2026-06-24 14:39:36
+300,STR01300,QuickMart Kanpur - Plaza-42,Kanpur,Uttar Pradesh,2,North,Express,5342,2012-09-18,2026-06-24 14:39:36
+301,STR01301,DailyNeeds Nagpur - West-71,Nagpur,Maharashtra,2,West,Convenience,981,2013-12-21,2026-06-24 14:39:36
+302,STR01302,MegaMart Erode - West-08,Erode,Tamil Nadu,3,South,Supermarket,32736,2016-09-03,2026-06-24 14:39:36
+303,STR01303,MegaMart Mysuru - South-26,Mysuru,Karnataka,2,South,Convenience,2157,2019-09-25,2026-06-24 14:39:36
+304,STR01304,SmartShop Jabalpur - West-94,Jabalpur,Madhya Pradesh,3,Central,Convenience,1930,2011-02-19,2026-06-24 14:39:36
+305,STR01305,QuickMart Bengaluru - South-02,Bengaluru,Karnataka,1,South,Express,4878,2011-04-06,2026-06-24 14:39:36
+306,STR01306,BigBazaar Gorakhpur - Central-18,Gorakhpur,Uttar Pradesh,3,North,Department Store,25267,2018-08-09,2026-06-24 14:39:36
+307,STR01307,CityStore Chandigarh - West-03,Chandigarh,Chandigarh,2,North,Hypermarket,88258,2010-06-06,2026-06-24 14:39:36
+308,STR01308,QuickMart Jabalpur - Plaza-63,Jabalpur,Madhya Pradesh,3,Central,Department Store,31931,2023-08-05,2026-06-24 14:39:36
+309,STR01309,BigBazaar Lucknow - North-58,Lucknow,Uttar Pradesh,2,North,Express,2890,2022-08-15,2026-06-24 14:39:36
+310,STR01310,MegaMart Anand - Plaza-41,Anand,Gujarat,3,West,Express,2415,2021-02-14,2026-06-24 14:39:36
+311,STR01311,DailyNeeds Amritsar - Square-73,Amritsar,Punjab,3,North,Wholesale,57269,2011-03-09,2026-06-24 14:39:36
+312,STR01312,FreshKart Rajkot - Main-92,Rajkot,Gujarat,2,West,Department Store,29864,2020-07-19,2026-06-24 14:39:36
+313,STR01313,ValueStore Thiruvananthapuram - North-48,Thiruvananthapuram,Kerala,2,South,Department Store,32401,2022-09-27,2026-06-24 14:39:36
+314,STR01314,SmartShop Cuttack - Square-15,Cuttack,Odisha,3,East,Convenience,2259,2017-02-24,2026-06-24 14:39:36
+315,STR01315,UrbanMart Indore - Main-54,Indore,Madhya Pradesh,2,Central,Express,4221,2025-06-01,2026-06-24 14:39:36
+316,STR01316,CityStore Chandigarh - Main-48,Chandigarh,Chandigarh,2,North,Department Store,28424,2016-05-16,2026-06-24 14:39:36
+317,STR01317,FreshKart Mysuru - Plaza-70,Mysuru,Karnataka,2,South,Supermarket,23911,2016-05-01,2026-06-24 14:39:36
+318,STR01318,RetailMart Rohtak - East-34,Rohtak,Haryana,3,North,Express,3733,2017-08-24,2026-06-24 14:39:36
+319,STR01319,SmartShop Siliguri - Central-90,Siliguri,West Bengal,3,East,Hypermarket,64328,2025-01-13,2026-06-24 14:39:36
+320,STR01320,BigBazaar Guntur - Park-60,Guntur,Andhra Pradesh,3,South,Express,2886,2016-09-11,2026-06-24 14:39:36
+321,STR01321,RetailMart Chandigarh - West-26,Chandigarh,Chandigarh,2,North,Express,5346,2017-03-22,2026-06-24 14:39:36
+322,STR01322,BigBazaar Guntur - Square-59,Guntur,Andhra Pradesh,3,South,Wholesale,59140,2014-09-11,2026-06-24 14:39:36
+323,STR01323,MegaMart Kochi - East-52,Kochi,Kerala,2,South,Hypermarket,80723,2015-01-17,2026-06-24 14:39:36
+324,STR01324,UrbanMart Chandigarh - Central-63,Chandigarh,Chandigarh,2,North,Express,3506,2020-08-02,2026-06-24 14:39:36
+325,STR01325,CityStore Vellore - West-24,Vellore,Tamil Nadu,3,South,Convenience,1143,2020-09-19,2026-06-24 14:39:36
+326,STR01326,SmartShop Faridabad - Square-67,Faridabad,Haryana,2,North,Department Store,29003,2013-01-03,2026-06-24 14:39:36
+327,STR01327,UrbanMart Kochi - Square-82,Kochi,Kerala,2,South,Supermarket,19960,2022-07-15,2026-06-24 14:39:36
+328,STR01328,CityStore Hisar - Plaza-82,Hisar,Haryana,3,North,Express,4411,2022-03-15,2026-06-24 14:39:36
+329,STR01329,ValueStore Guntur - North-69,Guntur,Andhra Pradesh,3,South,Supermarket,24359,2018-01-10,2026-06-24 14:39:36
+330,STR01330,FreshKart Karimnagar - Park-37,Karimnagar,Telangana,3,South,Express,5159,2018-06-11,2026-06-24 14:39:36
+331,STR01331,SmartShop Kolhapur - Plaza-69,Kolhapur,Maharashtra,3,West,Supermarket,24304,2023-06-24,2026-06-24 14:39:36
+332,STR01332,DailyNeeds Nagpur - South-90,Nagpur,Maharashtra,2,West,Supermarket,34874,2023-03-02,2026-06-24 14:39:36
+333,STR01333,CityStore Kolkata - Junction-15,Kolkata,West Bengal,1,East,Convenience,2454,2010-01-14,2026-06-24 14:39:36
+334,STR01334,ValueStore Haridwar - Park-50,Haridwar,Uttarakhand,3,North,Convenience,2459,2015-04-30,2026-06-24 14:39:36
+335,STR01335,RetailMart Jaipur - South-16,Jaipur,Rajasthan,2,North,Convenience,2262,2024-03-31,2026-06-24 14:39:36
+336,STR01336,CityStore Siliguri - Plaza-58,Siliguri,West Bengal,3,East,Convenience,1868,2024-02-29,2026-06-24 14:39:36
+337,STR01337,CityStore Shimla - Central-06,Shimla,Himachal Pradesh,3,North,Express,5562,2019-12-10,2026-06-24 14:39:36
+338,STR01338,DailyNeeds Delhi - Plaza-48,Delhi,Delhi,1,North,Hypermarket,50756,2015-05-25,2026-06-24 14:39:36
+339,STR01339,MegaMart Patna - Square-72,Patna,Bihar,2,East,Convenience,1467,2010-11-26,2026-06-24 14:39:36
+340,STR01340,UrbanMart Aurangabad - East-95,Aurangabad,Maharashtra,2,West,Supermarket,28504,2020-11-26,2026-06-24 14:39:36
+341,STR01341,ValueStore Kozhikode - Main-91,Kozhikode,Kerala,3,South,Supermarket,29436,2017-08-30,2026-06-24 14:39:36
+342,STR01342,FreshKart Hubli - South-38,Hubli,Karnataka,3,South,Convenience,2824,2016-12-21,2026-06-24 14:39:36
+343,STR01343,ValueStore Gwalior - Park-63,Gwalior,Madhya Pradesh,3,Central,Express,3467,2025-04-26,2026-06-24 14:39:36
+344,STR01344,BigBazaar Ludhiana - Square-34,Ludhiana,Punjab,2,North,Express,2985,2024-12-31,2026-06-24 14:39:36
+345,STR01345,MegaMart Vadodara - Central-30,Vadodara,Gujarat,2,West,Convenience,907,2022-12-31,2026-06-24 14:39:36
+346,STR01346,ValueStore Delhi - East-33,Delhi,Delhi,1,North,Convenience,2649,2014-06-24,2026-06-24 14:39:36
+347,STR01347,RetailMart Tiruchirappalli - South-10,Tiruchirappalli,Tamil Nadu,3,South,Wholesale,49787,2023-04-18,2026-06-24 14:39:36
+348,STR01348,CityStore Tirupati - South-39,Tirupati,Andhra Pradesh,3,South,Express,3413,2019-04-10,2026-06-24 14:39:36
+349,STR01349,MegaMart Delhi - East-56,Delhi,Delhi,1,North,Hypermarket,55633,2012-05-08,2026-06-24 14:39:36
+350,STR01350,CityStore Durgapur - Junction-17,Durgapur,West Bengal,3,East,Department Store,28915,2012-06-15,2026-06-24 14:39:36
+351,STR01351,MegaMart Asansol - Plaza-55,Asansol,West Bengal,3,East,Convenience,2794,2020-11-25,2026-06-24 14:39:36
+352,STR01352,FreshKart Belgaum - Main-64,Belgaum,Karnataka,3,South,Convenience,2769,2024-03-08,2026-06-24 14:39:36
+353,STR01353,RetailMart Ujjain - Park-06,Ujjain,Madhya Pradesh,3,Central,Convenience,2801,2013-05-22,2026-06-24 14:39:36
+354,STR01354,ValueStore Nashik - Park-50,Nashik,Maharashtra,2,West,Wholesale,27487,2024-03-28,2026-06-24 14:39:36
+355,STR01355,DailyNeeds Bhopal - South-36,Bhopal,Madhya Pradesh,2,Central,Express,4624,2025-07-20,2026-06-24 14:39:36
+356,STR01356,SmartShop Allahabad - Plaza-39,Allahabad,Uttar Pradesh,3,North,Supermarket,25291,2017-08-14,2026-06-24 14:39:36
+357,STR01357,DailyNeeds Jodhpur - Park-90,Jodhpur,Rajasthan,3,North,Convenience,1646,2020-10-03,2026-06-24 14:39:36
+358,STR01358,RetailMart Gurgaon - Park-15,Gurgaon,Haryana,3,North,Express,3876,2022-11-17,2026-06-24 14:39:36
+359,STR01359,FreshKart Gaya - North-46,Gaya,Bihar,3,East,Supermarket,23614,2023-03-02,2026-06-24 14:39:36
+360,STR01360,ValueStore Howrah - Plaza-10,Howrah,West Bengal,3,East,Wholesale,48414,2011-07-17,2026-06-24 14:39:36
+361,STR01361,DailyNeeds Dhanbad - North-54,Dhanbad,Jharkhand,3,East,Express,2616,2024-11-27,2026-06-24 14:39:36
+362,STR01362,SmartShop Amritsar - South-61,Amritsar,Punjab,3,North,Department Store,37335,2012-12-24,2026-06-24 14:39:36
+363,STR01363,CityStore Ajmer - Main-19,Ajmer,Rajasthan,3,North,Convenience,2138,2018-03-30,2026-06-24 14:39:36
+364,STR01364,RetailMart Guntur - Central-54,Guntur,Andhra Pradesh,3,South,Wholesale,45587,2013-04-16,2026-06-24 14:39:36
+365,STR01365,BigBazaar Ludhiana - Main-02,Ludhiana,Punjab,2,North,Department Store,45959,2020-06-17,2026-06-24 14:39:36
+366,STR01366,MegaMart Rajkot - West-49,Rajkot,Gujarat,2,West,Supermarket,17305,2017-04-09,2026-06-24 14:39:36
+367,STR01367,RetailMart Anand - Junction-97,Anand,Gujarat,3,West,Department Store,27616,2017-04-19,2026-06-24 14:39:36
+368,STR01368,FreshKart Agra - East-63,Agra,Uttar Pradesh,2,North,Supermarket,19788,2024-04-07,2026-06-24 14:39:36
+369,STR01369,FreshKart Ajmer - West-43,Ajmer,Rajasthan,3,North,Convenience,2425,2019-07-08,2026-06-24 14:39:36
+370,STR01370,MegaMart Amritsar - Junction-73,Amritsar,Punjab,3,North,Convenience,1354,2023-03-30,2026-06-24 14:39:36
+371,STR01371,SmartShop Haridwar - North-67,Haridwar,Uttarakhand,3,North,Express,3786,2022-04-08,2026-06-24 14:39:36
+372,STR01372,UrbanMart Ajmer - West-13,Ajmer,Rajasthan,3,North,Express,5809,2012-09-09,2026-06-24 14:39:36
+373,STR01373,DailyNeeds Vadodara - East-19,Vadodara,Gujarat,2,West,Hypermarket,64167,2017-12-27,2026-06-24 14:39:36
+374,STR01374,SmartShop Patna - East-39,Patna,Bihar,2,East,Supermarket,23140,2020-03-03,2026-06-24 14:39:36
+375,STR01375,RetailMart Belgaum - North-78,Belgaum,Karnataka,3,South,Convenience,2514,2011-02-22,2026-06-24 14:39:36
+376,STR01376,DailyNeeds Salem - Park-53,Salem,Tamil Nadu,3,South,Hypermarket,55857,2010-09-16,2026-06-24 14:39:36
+377,STR01377,SmartShop Tirunelveli - Plaza-09,Tirunelveli,Tamil Nadu,3,South,Hypermarket,61488,2024-01-09,2026-06-24 14:39:36
+378,STR01378,ValueStore Jodhpur - North-38,Jodhpur,Rajasthan,3,North,Convenience,1650,2019-05-16,2026-06-24 14:39:36
+379,STR01379,SmartShop Junagadh - West-15,Junagadh,Gujarat,3,West,Convenience,1328,2013-05-17,2026-06-24 14:39:36
+380,STR01380,ValueStore Bengaluru - South-87,Bengaluru,Karnataka,1,South,Hypermarket,55405,2011-08-07,2026-06-24 14:39:36
+381,STR01381,SmartShop Hubli - Junction-97,Hubli,Karnataka,3,South,Supermarket,17473,2021-01-11,2026-06-24 14:39:36
+382,STR01382,DailyNeeds Srinagar - West-77,Srinagar,Jammu and Kashmir,2,North,Hypermarket,72084,2015-11-01,2026-06-24 14:39:36
+383,STR01383,DailyNeeds Pune - West-39,Pune,Maharashtra,1,West,Supermarket,25105,2021-05-15,2026-06-24 14:39:36
+384,STR01384,ValueStore Tiruchirappalli - West-68,Tiruchirappalli,Tamil Nadu,3,South,Convenience,1373,2010-07-01,2026-06-24 14:39:36
+385,STR01385,FreshKart Bengaluru - Square-71,Bengaluru,Karnataka,1,South,Express,2913,2013-02-16,2026-06-24 14:39:36
+386,STR01386,DailyNeeds Nellore - East-76,Nellore,Andhra Pradesh,3,South,Department Store,29259,2017-09-14,2026-06-24 14:39:36
+387,STR01387,UrbanMart Guwahati - Plaza-63,Guwahati,Assam,2,East,Supermarket,28729,2010-04-13,2026-06-24 14:39:36
+388,STR01388,QuickMart Srinagar - Main-22,Srinagar,Jammu and Kashmir,2,North,Wholesale,43871,2018-01-31,2026-06-24 14:39:36
+389,STR01389,CityStore Bhavnagar - Square-58,Bhavnagar,Gujarat,3,West,Express,2860,2025-10-25,2026-06-24 14:39:36
+390,STR01390,UrbanMart Allahabad - Plaza-26,Allahabad,Uttar Pradesh,3,North,Convenience,1221,2010-03-13,2026-06-24 14:39:36
+391,STR01391,QuickMart Aurangabad - Main-56,Aurangabad,Maharashtra,2,West,Wholesale,40062,2013-07-27,2026-06-24 14:39:36
+392,STR01392,UrbanMart Bhavnagar - Main-03,Bhavnagar,Gujarat,3,West,Express,3004,2011-09-01,2026-06-24 14:39:36
+393,STR01393,FreshKart Asansol - Junction-17,Asansol,West Bengal,3,East,Hypermarket,60876,2010-12-26,2026-06-24 14:39:36
+394,STR01394,MegaMart Moradabad - North-63,Moradabad,Uttar Pradesh,3,North,Convenience,946,2022-03-16,2026-06-24 14:39:36
+395,STR01395,FreshKart Vellore - Square-64,Vellore,Tamil Nadu,3,South,Convenience,1875,2017-03-12,2026-06-24 14:39:36
+396,STR01396,UrbanMart Jamshedpur - Square-97,Jamshedpur,Jharkhand,3,East,Department Store,22609,2025-07-20,2026-06-24 14:39:36
+397,STR01397,CityStore Thrissur - Main-31,Thrissur,Kerala,3,South,Express,5406,2018-01-11,2026-06-24 14:39:36
+398,STR01398,BigBazaar Bhopal - Junction-22,Bhopal,Madhya Pradesh,2,Central,Department Store,23305,2013-01-24,2026-06-24 14:39:36
+399,STR01399,ValueStore Erode - North-54,Erode,Tamil Nadu,3,South,Wholesale,47753,2014-08-13,2026-06-24 14:39:36
+400,STR01400,BigBazaar Howrah - East-91,Howrah,West Bengal,3,East,Supermarket,31087,2014-02-19,2026-06-24 14:39:36
+401,STR01401,ValueStore Gaya - Junction-76,Gaya,Bihar,3,East,Convenience,2167,2011-06-07,2026-06-24 14:39:36
+402,STR01402,RetailMart Tiruchirappalli - Park-97,Tiruchirappalli,Tamil Nadu,3,South,Convenience,1896,2013-05-12,2026-06-24 14:39:36
+403,STR01403,QuickMart Delhi - East-90,Delhi,Delhi,1,North,Supermarket,27976,2025-03-08,2026-06-24 14:39:36
+404,STR01404,ValueStore Lucknow - Junction-17,Lucknow,Uttar Pradesh,2,North,Convenience,2224,2023-07-05,2026-06-24 14:39:36
+405,STR01405,ValueStore Varanasi - Central-88,Varanasi,Uttar Pradesh,2,North,Convenience,1057,2018-04-28,2026-06-24 14:39:36
+406,STR01406,MegaMart Bhavnagar - West-47,Bhavnagar,Gujarat,3,West,Supermarket,20308,2022-03-12,2026-06-24 14:39:36
+407,STR01407,DailyNeeds Rohtak - North-27,Rohtak,Haryana,3,North,Hypermarket,63097,2017-02-25,2026-06-24 14:39:36
+408,STR01408,FreshKart Vijayawada - Central-40,Vijayawada,Andhra Pradesh,2,South,Department Store,37867,2023-07-31,2026-06-24 14:39:36
+409,STR01409,CityStore Vellore - Main-23,Vellore,Tamil Nadu,3,South,Wholesale,47602,2024-09-30,2026-06-24 14:39:36
+410,STR01410,FreshKart Thrissur - Park-61,Thrissur,Kerala,3,South,Convenience,1012,2010-04-18,2026-06-24 14:39:36
+411,STR01411,QuickMart Patna - North-85,Patna,Bihar,2,East,Supermarket,29359,2013-08-10,2026-06-24 14:39:36
+412,STR01412,BigBazaar Warangal - East-96,Warangal,Telangana,3,South,Express,3370,2021-12-04,2026-06-24 14:39:36
+413,STR01413,QuickMart Anand - Junction-79,Anand,Gujarat,3,West,Express,2380,2012-09-09,2026-06-24 14:39:36
+414,STR01414,QuickMart Vijayawada - East-34,Vijayawada,Andhra Pradesh,2,South,Hypermarket,65717,2014-02-02,2026-06-24 14:39:36
+415,STR01415,BigBazaar Belgaum - Square-02,Belgaum,Karnataka,3,South,Convenience,1057,2015-11-09,2026-06-24 14:39:36
+416,STR01416,DailyNeeds Tiruchirappalli - East-25,Tiruchirappalli,Tamil Nadu,3,South,Convenience,1132,2010-04-29,2026-06-24 14:39:36
+417,STR01417,BigBazaar Srinagar - Junction-16,Srinagar,Jammu and Kashmir,2,North,Supermarket,25267,2023-03-16,2026-06-24 14:39:36
+418,STR01418,ValueStore Guntur - Park-83,Guntur,Andhra Pradesh,3,South,Express,2776,2021-04-30,2026-06-24 14:39:36
+419,STR01419,UrbanMart Surat - Square-70,Surat,Gujarat,2,West,Hypermarket,62645,2017-03-01,2026-06-24 14:39:36
+420,STR01420,FreshKart Bikaner - South-24,Bikaner,Rajasthan,3,North,Wholesale,54608,2020-10-12,2026-06-24 14:39:36
+421,STR01421,SmartShop Jabalpur - Main-27,Jabalpur,Madhya Pradesh,3,Central,Supermarket,21517,2010-10-19,2026-06-24 14:39:36
+422,STR01422,CityStore Gorakhpur - Square-64,Gorakhpur,Uttar Pradesh,3,North,Wholesale,38187,2016-09-06,2026-06-24 14:39:36
+423,STR01423,CityStore Vijayawada - Central-98,Vijayawada,Andhra Pradesh,2,South,Express,5814,2017-02-08,2026-06-24 14:39:36
+424,STR01424,UrbanMart Tirupati - Central-30,Tirupati,Andhra Pradesh,3,South,Department Store,49182,2025-02-07,2026-06-24 14:39:36
+425,STR01425,BigBazaar Cuttack - West-05,Cuttack,Odisha,3,East,Supermarket,18760,2022-10-08,2026-06-24 14:39:36
+426,STR01426,MegaMart Junagadh - Plaza-92,Junagadh,Gujarat,3,West,Convenience,1528,2021-08-01,2026-06-24 14:39:36
+427,STR01427,UrbanMart Moradabad - Main-49,Moradabad,Uttar Pradesh,3,North,Supermarket,22791,2018-11-09,2026-06-24 14:39:36
+428,STR01428,CityStore Durgapur - East-96,Durgapur,West Bengal,3,East,Wholesale,36948,2017-12-16,2026-06-24 14:39:36
+429,STR01429,SmartShop Kolhapur - East-62,Kolhapur,Maharashtra,3,West,Supermarket,21666,2020-11-03,2026-06-24 14:39:36
+430,STR01430,DailyNeeds Meerut - East-29,Meerut,Uttar Pradesh,2,North,Convenience,2356,2011-11-12,2026-06-24 14:39:36
+431,STR01431,BigBazaar Bareilly - Junction-50,Bareilly,Uttar Pradesh,3,North,Wholesale,29845,2011-11-16,2026-06-24 14:39:36
+432,STR01432,BigBazaar Varanasi - West-72,Varanasi,Uttar Pradesh,2,North,Convenience,1585,2021-04-29,2026-06-24 14:39:36
+433,STR01433,QuickMart Jaipur - Park-86,Jaipur,Rajasthan,2,North,Hypermarket,76396,2017-03-13,2026-06-24 14:39:36
+434,STR01434,FreshKart Ajmer - Central-46,Ajmer,Rajasthan,3,North,Wholesale,55303,2019-07-05,2026-06-24 14:39:36
+435,STR01435,QuickMart Hubli - Central-23,Hubli,Karnataka,3,South,Convenience,1591,2010-07-06,2026-06-24 14:39:36
+436,STR01436,SmartShop Aligarh - East-85,Aligarh,Uttar Pradesh,3,North,Wholesale,25918,2022-01-01,2026-06-24 14:39:36
+437,STR01437,RetailMart Mumbai - Junction-01,Mumbai,Maharashtra,1,West,Hypermarket,75919,2019-06-02,2026-06-24 14:39:36
+438,STR01438,CityStore Ajmer - West-56,Ajmer,Rajasthan,3,North,Express,5517,2011-05-29,2026-06-24 14:39:36
+439,STR01439,MegaMart Mangalore - Park-50,Mangalore,Karnataka,3,South,Supermarket,24472,2011-03-21,2026-06-24 14:39:36
+440,STR01440,DailyNeeds Vellore - Plaza-08,Vellore,Tamil Nadu,3,South,Express,5884,2015-06-26,2026-06-24 14:39:36
+441,STR01441,CityStore Bhopal - Central-72,Bhopal,Madhya Pradesh,2,Central,Department Store,43335,2024-10-15,2026-06-24 14:39:36
+442,STR01442,QuickMart Kozhikode - North-72,Kozhikode,Kerala,3,South,Convenience,1072,2011-01-08,2026-06-24 14:39:36
+443,STR01443,SmartShop Vellore - North-42,Vellore,Tamil Nadu,3,South,Express,4797,2012-06-07,2026-06-24 14:39:36
+444,STR01444,SmartShop Thrissur - West-20,Thrissur,Kerala,3,South,Department Store,27067,2018-10-17,2026-06-24 14:39:36
+445,STR01445,DailyNeeds Moradabad - Junction-95,Moradabad,Uttar Pradesh,3,North,Convenience,2911,2013-04-21,2026-06-24 14:39:36
+446,STR01446,SmartShop Surat - Park-30,Surat,Gujarat,2,West,Express,5210,2014-03-02,2026-06-24 14:39:36
+447,STR01447,BigBazaar Siliguri - Square-01,Siliguri,West Bengal,3,East,Hypermarket,57081,2017-05-27,2026-06-24 14:39:36
+448,STR01448,UrbanMart Vellore - South-15,Vellore,Tamil Nadu,3,South,Convenience,825,2024-01-31,2026-06-24 14:39:36
+449,STR01449,UrbanMart Vadodara - Central-52,Vadodara,Gujarat,2,West,Wholesale,53153,2024-08-20,2026-06-24 14:39:36
+450,STR01450,DailyNeeds Amritsar - South-29,Amritsar,Punjab,3,North,Supermarket,15514,2010-05-10,2026-06-24 14:39:36
+451,STR01451,ValueStore Rohtak - Junction-81,Rohtak,Haryana,3,North,Supermarket,34015,2024-02-24,2026-06-24 14:39:36
+452,STR01452,SmartShop Kolhapur - Plaza-05,Kolhapur,Maharashtra,3,West,Express,4118,2013-07-04,2026-06-24 14:39:36
+453,STR01453,MegaMart Dehradun - Plaza-97,Dehradun,Uttarakhand,3,North,Convenience,2466,2012-03-17,2026-06-24 14:39:36
+454,STR01454,QuickMart Gorakhpur - Plaza-87,Gorakhpur,Uttar Pradesh,3,North,Express,4195,2020-12-13,2026-06-24 14:39:36
+455,STR01455,RetailMart Bareilly - Park-97,Bareilly,Uttar Pradesh,3,North,Convenience,2516,2023-05-05,2026-06-24 14:39:36
+456,STR01456,BigBazaar Kozhikode - Plaza-42,Kozhikode,Kerala,3,South,Express,2044,2010-10-15,2026-06-24 14:39:36
+457,STR01457,UrbanMart Ludhiana - Central-13,Ludhiana,Punjab,2,North,Hypermarket,55860,2011-03-18,2026-06-24 14:39:36
+458,STR01458,SmartShop Aurangabad - South-98,Aurangabad,Maharashtra,2,West,Convenience,1029,2025-03-14,2026-06-24 14:39:36
+459,STR01459,RetailMart Patiala - Junction-62,Patiala,Punjab,3,North,Wholesale,25241,2015-04-19,2026-06-24 14:39:36
+460,STR01460,SmartShop Rohtak - Main-37,Rohtak,Haryana,3,North,Supermarket,20935,2018-12-23,2026-06-24 14:39:36
+461,STR01461,QuickMart Ajmer - Main-81,Ajmer,Rajasthan,3,North,Supermarket,15819,2020-04-15,2026-06-24 14:39:36
+462,STR01462,QuickMart Nagpur - Plaza-77,Nagpur,Maharashtra,2,West,Hypermarket,44742,2011-11-19,2026-06-24 14:39:36
+463,STR01463,BigBazaar Dhanbad - Square-35,Dhanbad,Jharkhand,3,East,Supermarket,32987,2023-09-07,2026-06-24 14:39:36
+464,STR01464,MegaMart Jamshedpur - Plaza-84,Jamshedpur,Jharkhand,3,East,Convenience,2567,2024-01-22,2026-06-24 14:39:36
+465,STR01465,FreshKart Sangli - East-23,Sangli,Maharashtra,3,West,Hypermarket,51017,2014-03-21,2026-06-24 14:39:36
+466,STR01466,FreshKart Jamshedpur - Plaza-11,Jamshedpur,Jharkhand,3,East,Convenience,2401,2015-10-22,2026-06-24 14:39:36
+467,STR01467,BigBazaar Patna - Park-03,Patna,Bihar,2,East,Supermarket,33638,2022-09-03,2026-06-24 14:39:36
+468,STR01468,CityStore Jalandhar - Park-35,Jalandhar,Punjab,3,North,Supermarket,18929,2015-09-28,2026-06-24 14:39:36
+469,STR01469,CityStore Jaipur - Plaza-06,Jaipur,Rajasthan,2,North,Supermarket,22415,2025-11-24,2026-06-24 14:39:36
+470,STR01470,DailyNeeds Faridabad - East-83,Faridabad,Haryana,2,North,Hypermarket,74963,2022-03-15,2026-06-24 14:39:36
+471,STR01471,SmartShop Faridabad - West-63,Faridabad,Haryana,2,North,Supermarket,30272,2020-01-09,2026-06-24 14:39:36
+472,STR01472,RetailMart Hisar - Central-55,Hisar,Haryana,3,North,Supermarket,33792,2025-04-05,2026-06-24 14:39:36
+473,STR01473,UrbanMart Jodhpur - East-23,Jodhpur,Rajasthan,3,North,Wholesale,40194,2012-08-18,2026-06-24 14:39:36
+474,STR01474,ValueStore Bengaluru - South-35,Bengaluru,Karnataka,1,South,Supermarket,23947,2010-04-29,2026-06-24 14:39:36
+475,STR01475,CityStore Haridwar - South-72,Haridwar,Uttarakhand,3,North,Supermarket,34510,2016-12-29,2026-06-24 14:39:36
+476,STR01476,MegaMart Salem - South-39,Salem,Tamil Nadu,3,South,Express,4992,2025-08-12,2026-06-24 14:39:36
+477,STR01477,SmartShop Kozhikode - North-17,Kozhikode,Kerala,3,South,Convenience,1628,2022-12-10,2026-06-24 14:39:36
+478,STR01478,SmartShop Vellore - Park-99,Vellore,Tamil Nadu,3,South,Express,2746,2018-08-17,2026-06-24 14:39:36
+479,STR01479,UrbanMart Kolkata - North-33,Kolkata,West Bengal,1,East,Supermarket,34182,2012-03-14,2026-06-24 14:39:36
+480,STR01480,QuickMart Indore - Plaza-72,Indore,Madhya Pradesh,2,Central,Express,5004,2025-11-02,2026-06-24 14:39:36
+481,STR01481,MegaMart Muzaffarpur - Junction-96,Muzaffarpur,Bihar,3,East,Department Store,28365,2025-07-07,2026-06-24 14:39:36
+482,STR01482,RetailMart Guntur - Square-90,Guntur,Andhra Pradesh,3,South,Supermarket,19051,2018-02-26,2026-06-24 14:39:36
+483,STR01483,SmartShop Vellore - Square-78,Vellore,Tamil Nadu,3,South,Hypermarket,71131,2025-11-15,2026-06-24 14:39:36
+484,STR01484,CityStore Anand - Central-69,Anand,Gujarat,3,West,Wholesale,34606,2021-07-29,2026-06-24 14:39:36
+485,STR01485,MegaMart Ujjain - Main-80,Ujjain,Madhya Pradesh,3,Central,Convenience,2566,2018-10-02,2026-06-24 14:39:36
+486,STR01486,BigBazaar Bhavnagar - Central-23,Bhavnagar,Gujarat,3,West,Supermarket,24419,2011-04-08,2026-06-24 14:39:36
+487,STR01487,FreshKart Meerut - North-25,Meerut,Uttar Pradesh,2,North,Convenience,1980,2020-05-16,2026-06-24 14:39:36
+488,STR01488,DailyNeeds Tirunelveli - South-58,Tirunelveli,Tamil Nadu,3,South,Express,3297,2018-12-20,2026-06-24 14:39:36
+489,STR01489,QuickMart Anand - Square-08,Anand,Gujarat,3,West,Supermarket,30873,2023-05-11,2026-06-24 14:39:36
+490,STR01490,BigBazaar Hubli - Plaza-45,Hubli,Karnataka,3,South,Supermarket,33070,2016-07-16,2026-06-24 14:39:36
+491,STR01491,UrbanMart Visakhapatnam - South-15,Visakhapatnam,Andhra Pradesh,2,South,Convenience,802,2011-02-17,2026-06-24 14:39:36
+492,STR01492,UrbanMart Cuttack - Plaza-19,Cuttack,Odisha,3,East,Department Store,43709,2022-02-05,2026-06-24 14:39:36
+493,STR01493,MegaMart Sangli - Plaza-08,Sangli,Maharashtra,3,West,Wholesale,27741,2011-12-03,2026-06-24 14:39:36
+494,STR01494,FreshKart Vellore - Junction-09,Vellore,Tamil Nadu,3,South,Hypermarket,62414,2025-06-04,2026-06-24 14:39:36
+495,STR01495,SmartShop Jodhpur - South-73,Jodhpur,Rajasthan,3,North,Convenience,2067,2019-07-28,2026-06-24 14:39:36
+496,STR01496,FreshKart Indore - East-93,Indore,Madhya Pradesh,2,Central,Express,5097,2010-05-25,2026-06-24 14:39:36
+497,STR01497,MegaMart Mumbai - South-89,Mumbai,Maharashtra,1,West,Convenience,2552,2013-10-02,2026-06-24 14:39:36
+498,STR01498,SmartShop Bhubaneswar - Junction-80,Bhubaneswar,Odisha,3,East,Hypermarket,77037,2024-06-09,2026-06-24 14:39:36
+499,STR01499,RetailMart Ludhiana - South-50,Ludhiana,Punjab,2,North,Department Store,25213,2021-06-20,2026-06-24 14:39:36
+500,STR01500,UrbanMart Warangal - Main-87,Warangal,Telangana,3,South,Express,2476,2011-09-28,2026-06-24 14:39:36
