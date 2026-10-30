@@ -38,7 +38,7 @@ formatter = logging.Formatter(
 # HANDLER 1: File Handler - Captures everything (DEBUG+)
 # ============================================================================
 # Use for: Persistent log storage for debugging and auditing
-file_handler = logging.FileHandler('application1.log', mode='a')
+file_handler = logging.FileHandler('application101.log', mode='a')
 file_handler.setLevel(logging.DEBUG)            # Capture all messages
 file_handler.setFormatter(formatter)            # Apply format
 
@@ -64,9 +64,9 @@ stream_handler.setFormatter(formatter)
 email_handler = SMTPHandler(
     mailhost=('smtp.gmail.com', 587),          # Gmail SMTP server
     fromaddr='scwagh123@gmail.com',            # Sender address
-    toaddrs=['pratikborikar88@gmail.com','mithileshraisane@gmail.com'],                # Recipients list
+    toaddrs=['aniketburde14@gmail.com','surajshinde6046@gmail.com','ansariarshad50213@gmail.com'],                # Recipients list
     subject='[ALERT] Application Error',        # Email subject
-    credentials=('scwagh123@gmail.com', 'app password'),  # Login
+    credentials=('scwagh123@gmail.com', 'apppassword'),  # Login
     secure=()                                   # Use TLS (tuple triggers STARTTLS)
 )
 email_handler.setLevel(logging.ERROR)           # Only ERROR and CRITICAL

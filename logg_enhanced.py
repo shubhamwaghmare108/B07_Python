@@ -20,12 +20,12 @@ logger = logging.getLogger("my_logger")
 # Configure logging with basicConfig (one-time setup)
 # Note: basicConfig only works once; subsequent calls are ignored
 logging.basicConfig(
-    level=logging.DEBUG,                    # Minimum level to log
-    filename='application.log',                    # File to write to
-    filemode='a',                           # 'a' = append, 'w' = overwrite
-    format='%(asctime)s - %(name)s - %(levelname)s - %(filename)s '
+    level=logging.ERROR,                    # Minimum level to log
+    #filename='application_demo.log',                    # File to write to
+    #filemode='w',                           # 'a' = append, 'w' = overwrite
+    format='%(asctime)s - %(name)s - %(levelname)s -%(levelno)d - %(filename)s '
            'module:(%(module)s) - function %(funcName)s:LineNo.%(lineno)d - %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'            # Optional: custom date format
+    datefmt='%Y-%b-%A' #%H:%M:%S'            # Optional: custom date format
 )
 
 def division(a, b):
@@ -61,8 +61,8 @@ if __name__ == "__main__":
         
         # Option 2: logger.exception() - includes full traceback automatically
         # This is the preferred way to log exceptions
-        logger.exception(f"Error occurred: {e}")
-        logger.error(f"Error occurred: {e}", exc_info=True)  # Also log as error level without traceback
+        #logger.exception(f"Error occurred: {e}")
+        logger.error(f"Error occurred: {e}")  # Also log as error level without traceback
     
     # Test 3: Informational logs
     logger.info("Division completed successfully.")
@@ -71,13 +71,13 @@ if __name__ == "__main__":
     logger.warning("This is a warning message.")
     
     # Test 5: Error level (not an exception, just an error state)
-    logger.error("This is an error message.")
+    logger.error("This is an error message.",exc_info=True)
     
     # Test 6: Critical level
     logger.critical("This is a critical message.")
 
 """
-Expected log output (application.log):
+Expected log output (application_demo.log):
 
 2024-12-15 10:30:45 - my_logger - DEBUG - logg.py module:(logg) - function division:LineNo.21 - Dividing 10 by 0
 2024-12-15 10:30:45 - my_logger - DEBUG - logg.py module:(logg) - function <module>:LineNo.45 - Error occurred while dividing: division by zero

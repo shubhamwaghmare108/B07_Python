@@ -1,0 +1,4 @@
+2026-10-27 22:06:16 - my_logger - ERROR -40 - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.65 - Error occurred: division by zero
+2026-10-27 22:06:16 - my_logger - ERROR -40 - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.74 - This is an error message.
+NoneType: None
+2026-10-27 22:06:16 - my_logger - CRITICAL -50 - logg_enhanced.py module:(logg_enhanced) - function <module>:LineNo.77 - This is a critical message.
